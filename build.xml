@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="2CSA_FAP_MALLABO-RABANG-RIVERA-VASQUEZ" default="default" basedir=".">
-    <description>Builds, tests, and runs the project 2CSA_FAP_MALLABO-RABANG-RIVERA-VASQUEZ.</description>
+<project name="TELETIGERS_WEBSITE" default="default" basedir=".">
+    <description>Builds, tests, and runs the project TELETIGERS_WEBSITE.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
