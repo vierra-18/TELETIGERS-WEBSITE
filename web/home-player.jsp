@@ -71,28 +71,28 @@
 					</h2>
 					<div class="con1-images">
 						<img
-							src="styles/images/valo.png"
+							src="css/images/valo.png"
 							class="valo"
 							data-aos="zoom-out"
 							data-aos-duration="700"
 							data-aos-delay="3200"
 						/>
 						<img
-							src="styles/images/ml.png"
+							src="css/images/ml.png"
 							class="emel"
 							data-aos="zoom-out"
 							data-aos-duration="700"
 							data-aos-delay="3400"
 						/>
 						<img
-							src="styles/images/lolwr.png"
+							src="css/images/lolwr.png"
 							class="lolwr"
 							data-aos="zoom-out"
 							data-aos-duration="700"
 							data-aos-delay="3600"
 						/>
 						<img
-							src="styles/images/LoL.png"
+							src="css/images/LoL.png"
 							class="lol"
 							data-aos="zoom-out"
 							data-aos-duration="700"
@@ -108,7 +108,7 @@
 					data-aos-delay="400"
 				>
 					<img
-						src="styles/images/Uomi.png"
+						src="css/images/Uomi.png"
 						alt="founder"
 						data-aos="fade-up-left"
 						data-aos-delay="400"
@@ -133,7 +133,7 @@
 			</section>
 			<section class="container-3" id="cont3">
 				<div class="text">
-					powered by <img src="styles/images/acadarena.png" alt="founder" />
+					powered by <img src="css/images/acadarena.png" alt="founder" />
 				</div>
 				<div class="contact" id="contact">
 					<ul>

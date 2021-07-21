@@ -73,7 +73,7 @@
 					>
 						<a href="#"
 							><div class="logo">
-								<img src="styles/images/LoL.png" class="lolers" /></div
+								<img src="css/images/LoL.png" class="lolers" /></div
 						></a>
 					</div>
 
@@ -85,7 +85,7 @@
 					>
 						<a href="#"
 							><div class="logo">
-								<img src="styles/images/lolwr.png" class="rifters" /></div
+								<img src="css/images/lolwr.png" class="rifters" /></div
 						></a>
 					</div>
 
@@ -97,7 +97,7 @@
 					>
 						<a href="valorant_"
 							><div class="logo">
-								<img src="styles/images/valo.png" class="valoers" /></div
+								<img src="css/images/valo.png" class="valoers" /></div
 						></a>
 					</div>
 
@@ -109,14 +109,14 @@
 					>
 						<a href="#"
 							><div class="logo">
-								<img src="styles/images/ml.png" class="emelers" /></div
+								<img src="css/images/ml.png" class="emelers" /></div
 						></a>
 					</div>
 				</div>
 			</section>
 			<section class="container-3" id="cont3">
 				<div class="text">
-					powered by <img src="styles/images/acadarena.png" alt="founder" />
+					powered by <img src="css/images/acadarena.png" alt="founder" />
 				</div>
 				<div class="contact" id="contact">
 					<ul>
