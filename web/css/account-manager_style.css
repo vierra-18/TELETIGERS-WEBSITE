@@ -828,7 +828,7 @@ body {
 }
 
 .modal-background label#lbl1 input[type="text"] {
-  width: 100%;
+  width: 130px;
 }
 
 .modal-background .back {
@@ -1119,4 +1119,3 @@ body {
     opacity: 0;
   }
 }
-/*# sourceMappingURL=account-manager_style.css.map */

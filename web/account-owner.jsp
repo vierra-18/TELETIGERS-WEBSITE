@@ -85,7 +85,37 @@
 								/>
 							</label>
 							<label>
-								<input type="text" id="game" name="game" placeholder="Game" />
+								<input
+									list="Role"
+									type="text"
+									placeholder="Role"
+									class="list"
+									name="role"
+									id="role"
+								/>
+								<datalist id="Role">
+									<option value="Co-Owner"></option>
+									<option value="Manager"></option>
+									<option value="Player"></option>
+								</datalist>
+							</label>
+							<label>
+								<input
+									list="Game"
+									type="text"
+									placeholder="Game"
+									class="list"
+									name="game"
+									id="game"
+								/>
+								<datalist id="Game">
+									<option value="Valorant"></option>
+									<option value="League of Legends"></option>
+									<option value="LOL Wild Rift"></option>
+									<option value="Mobile Legends: BB"></option>
+									<option value="Call of Duty Mobile"></option>
+									<option value="Hearthstone"></option>
+								</datalist>
 							</label>
 							<label>
 								<input
@@ -164,7 +194,7 @@
 								<input type="reset" value="Clear" />
 							</form>
 						</div>
-						<button id="back" class="back">Cancel</button>
+						<button id="back" class="back">X</button>
 					</div>
 				</div>
 			</section>

@@ -351,13 +351,13 @@ body.inactive {
   height: 0;
 }
 
-.main-container .container-2 .contain .backfade .logo {
+.main-container .container-2 .contain .backfade h2 {
   position: absolute;
-  bottom: -60px;
+  bottom: -50px;
   z-index: 1;
+  text-align: center;
   width: 100%;
   line-height: 50px;
-  height: 60px;
   background: #0e0e0e;
   color: #f4f4f4;
   margin: 0;
@@ -368,34 +368,9 @@ body.inactive {
   transition: all 0.5s ease;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.main-container .container-2 .contain .backfade .logo .lolers {
-  height: 30px;
-}
-
-.main-container .container-2 .contain .backfade .logo .rifters {
-  height: 40px;
-}
-
-.main-container .container-2 .contain .backfade .logo .valoers {
-  height: 35px;
-}
-
-.main-container .container-2 .contain .backfade .logo .emelers {
-  height: 30px;
-}
-
-.main-container .container-2 .contain .backfade:hover .logo {
+.main-container .container-2 .contain .backfade:hover h2 {
   bottom: 80px;
 }
 

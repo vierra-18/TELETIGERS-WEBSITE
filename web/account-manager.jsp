@@ -15,8 +15,7 @@
 	</head>
 	<% ServletContext sc = request.getServletContext();
 	if(sc.getAttribute("SessionUser")==null){response.sendError(HttpServletResponse.SC_NOT_FOUND);};
-	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); 
-        %>
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); %>
 	<body class="inactive">
 		<section class="background"></section>
 		<div class="header_logo" data-aos="zoom-out">
