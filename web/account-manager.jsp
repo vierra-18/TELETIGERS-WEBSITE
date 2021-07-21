@@ -162,7 +162,7 @@
 								<input type="submit" value="ENTER" />
 							</form>
 						</div>
-						<button id="back" class="back">Cancel</button>
+						<button id="back" class="back">X</button>
 					</div>
 				</div>
 			</section>
