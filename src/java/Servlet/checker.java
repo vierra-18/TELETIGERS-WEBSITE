@@ -121,9 +121,12 @@ public class checker extends HttpServlet {
 
                 if (captcha.isCorrect(answer)) {
                     System.out.println("Password Matches");
-                    if (role.equals("Manager") || role.equals("Admin")) {
+                    if (role.equals("Manager")) {
                         response.sendRedirect("home_");
-                    } else {
+                    } else if (role.equals("Admin")){
+                        response.sendRedirect("_home_");
+                    }
+                    else {
                         response.sendRedirect("_home");
                     }
 
