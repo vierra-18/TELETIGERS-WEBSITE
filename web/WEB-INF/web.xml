@@ -241,15 +241,16 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Manager</servlet-name>
-        <url-pattern>/valorant_</url-pattern>   
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Valorant Owner</servlet-name>
-        <url-pattern>/_valorant_</url-pattern>
-        <servlet>
+        <url-pattern>/valorant_</url-pattern>
+    </servlet-mapping>   
+    <servlet>
         <servlet-name>Valorant Owner</servlet-name>
         <jsp-file>valorant-owner.jsp</jsp-file>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>Valorant Owner</servlet-name>
+        <url-pattern>/_valorant_</url-pattern>
+    </servlet-mapping> 
     <!--Webpages-->
     <!--Header-->
     <context-param>
