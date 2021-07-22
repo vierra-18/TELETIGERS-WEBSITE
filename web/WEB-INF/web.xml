@@ -132,12 +132,28 @@
         <url-pattern>/account</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>Admin Account</servlet-name>
+        <jsp-file>account-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Admin Account</servlet-name>
+        <url-pattern>/account-</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>Manager Home</servlet-name>
         <jsp-file>home-manager.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Manager Home</servlet-name>
         <url-pattern>/home_</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Admin Home</servlet-name>
+        <jsp-file>home-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Admin Home</servlet-name>
+        <url-pattern>/home-</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>Player Home</servlet-name>
@@ -196,6 +212,14 @@
         <url-pattern>/gamepick_</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>GamePick Admin</servlet-name>
+        <jsp-file>gamepick-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GamePick Admin</servlet-name>
+        <url-pattern>/gamepick-</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>Valorant Guest</servlet-name>
         <jsp-file>valorant-guest.jsp</jsp-file>
     </servlet>
@@ -218,7 +242,15 @@
     <servlet-mapping>
         <servlet-name>Valorant Manager</servlet-name>
         <url-pattern>/valorant_</url-pattern>
-    </servlet-mapping>   
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Valorant Admin</servlet-name>
+        <jsp-file>valorant-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Valorant Manager</servlet-name>
+        <url-pattern>/valorant-</url-pattern>
+    </servlet-mapping>      
     <!--Webpages-->
     <!--Header-->
     <context-param>
