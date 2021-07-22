@@ -767,7 +767,7 @@ body {
   display: block;
   width: 260px;
   margin: 25px 0 0;
-  text-align: left;
+  text-align: center;
   font-size: 1em;
 }
 
@@ -827,7 +827,7 @@ body {
           justify-content: space-between;
 }
 
-.modal-background .back {
+.modal-background button#back {
   position: absolute;
   left: 25%;
   top: 11%;
@@ -837,178 +837,28 @@ body {
   height: auto;
   z-index: 999;
   cursor: pointer;
-  border: solid #ee7a7a 2px;
-  border-radius: 50%;
-  padding: 3px 5px;
-  font-size: 10px;
-}
-
-#modal-container-2 {
-  position: fixed;
-  display: table;
-  height: 100%;
-  width: 100%;
-  top: 0%;
-  left: 0%;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  z-index: 0;
-}
-
-#modal-container-2.ret {
-  z-index: 999;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-#modal-container-2.ret .modal-background-2 {
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  background: #000000ab;
-}
-
-#modal-container-2.ret .modal-background-2 .modal {
-  -webkit-animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-          animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container-2.ret + .container-1 {
-  z-index: 1;
-  -webkit-animation: blowUpContent 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-          animation: blowUpContent 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container-2.ret.out .modal-background-2 {
-  background: transparent;
-}
-
-#modal-container-2.ret.out .modal-background-2 .modal {
-  -webkit-animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-          animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container-2.ret.out + .container-1 {
-  -webkit-animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-          animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-.modal-background-2 {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.modal-background-2 .modal {
-  background: #1d1d1d;
-  width: 400px;
-  height: 330px;
-  display: inline-block;
-  border-radius: 3px;
-  font-weight: 300;
-  position: relative;
-  -webkit-box-shadow: 0 19px 38px #303030, 0 15px 12px #242424;
-          box-shadow: 0 19px 38px #303030, 0 15px 12px #242424;
-  border-radius: 10px;
-}
-
-.modal-background-2 .modal p {
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.modal-background-2 .modal form {
-  padding: 30px 60px;
-  max-height: 100%;
-  color: #fff;
-  font-family: "Roboto Mono", monospace;
-}
-
-.modal-background-2 .modal form h2 {
-  font-size: 2em;
-  text-align: center;
-  font-family: "Antonio", sans-serif;
-}
-
-.modal-background-2 .modal form label {
-  display: block;
-  width: 260px;
-  margin: 25px 0 0;
-  text-align: left;
-  font-size: 1em;
-}
-
-.modal-background-2 .modal form input,
-.modal-background-2 .modal form input[type="submit"] {
+  font-size: 20px;
   border: none;
-  outline: none;
-  background: none;
-}
-
-.modal-background-2 .modal form input {
-  display: block;
-  width: 110%;
-  margin-top: 5px;
-  font-size: 16px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ffffff;
-  /* text-align: center; */
-  font-family: "Roboto Mono", monospace;
-  color: #ffffff;
-  text-align: center;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.modal-background-2 .modal form input:focus {
-  border-bottom: 1px solid #dd9700;
-}
-
-.modal-background-2 .modal form input[type="text"] {
-  max-width: 110%;
-}
-
-.modal-background-2 .modal form input[type="submit"] {
-  color: #ffffff;
-  margin: 30px auto 0 auto;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-family: "Roboto Mono", monospace;
-  border-radius: 25px;
-  border: #ffffff 2px solid;
-  /* align-self: center; */
-  width: 50%;
-  cursor: pointer;
-}
-
-.modal-background-2 .modal .back {
-  position: absolute;
-  left: 44.8%;
-  bottom: 3%;
-  margin-top: 50px;
-  color: #ee7a7a;
-  border: none;
-  background: none;
-  height: 20px;
 }
 
 ::-webkit-input-placeholder {
   color: #818181;
-  text-align: left;
+  text-align: center;
 }
 
 :-ms-input-placeholder {
   color: #818181;
-  text-align: left;
+  text-align: center;
 }
 
 ::-ms-input-placeholder {
   color: #818181;
-  text-align: left;
+  text-align: center;
 }
 
 ::placeholder {
   color: #818181;
-  text-align: left;
+  text-align: center;
 }
 
 @-webkit-keyframes blowUpContent {

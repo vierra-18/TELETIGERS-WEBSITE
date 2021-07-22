@@ -11,6 +11,10 @@
 			href="css/images/tiger-icon.png"
 			type="image/x-icon"
 		/>
+		<script
+			crossorigin="anonymous"
+			src="https://kit.fontawesome.com/c8e4d183c2.js"
+		></script>
 		<title>Teletigers #tgrwin</title>
 	</head>
 	<% ServletContext sc = request.getServletContext();
@@ -162,7 +166,9 @@
 								<input type="submit" value="ENTER" />
 							</form>
 						</div>
-						<button id="back" class="back">X</button>
+						<button id="back" class="back">
+							<i class="far fa-times-circle"></i>
+						</button>
 					</div>
 				</div>
 			</section>

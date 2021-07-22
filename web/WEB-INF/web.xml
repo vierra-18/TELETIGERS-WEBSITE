@@ -116,6 +116,14 @@
     <!--Exceptions-->
     <!--Webpages-->
     <servlet>
+        <servlet-name>Owner Account</servlet-name>
+        <jsp-file>account-owner.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Owner Account</servlet-name>
+        <url-pattern>/_account_</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>Manager Account</servlet-name>
         <jsp-file>account-manager.jsp</jsp-file>
     </servlet>
@@ -204,6 +212,14 @@
         <url-pattern>/gamepick_</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>GamePick Owner</servlet-name>
+        <jsp-file>gamepick-owner.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GamePick Owner</servlet-name>
+        <url-pattern>/_gamepick_</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>Valorant Guest</servlet-name>
         <jsp-file>valorant-guest.jsp</jsp-file>
     </servlet>
@@ -225,8 +241,15 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Manager</servlet-name>
-        <url-pattern>/valorant_</url-pattern>
+        <url-pattern>/valorant_</url-pattern>   
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Valorant Owner</servlet-name>
+        <url-pattern>/_valorant_</url-pattern>
+        <servlet>
+        <servlet-name>Valorant Owner</servlet-name>
+        <jsp-file>valorant-owner.jsp</jsp-file>
+    </servlet>
     <!--Webpages-->
     <!--Header-->
     <context-param>

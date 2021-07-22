@@ -11,6 +11,10 @@
 			href="css/images/tiger-icon.png"
 			type="image/x-icon"
 		/>
+		<script
+			crossorigin="anonymous"
+			src="https://kit.fontawesome.com/c8e4d183c2.js"
+		></script>
 		<title>Teletigers #tgrwin</title>
 	</head>
 	<% ServletContext sc = request.getServletContext();
@@ -194,7 +198,9 @@
 								<input type="reset" value="Clear" />
 							</form>
 						</div>
-						<button id="back" class="back">X</button>
+						<button id="back" class="back">
+							<i class="far fa-times-circle"></i>
+						</button>
 					</div>
 				</div>
 			</section>
@@ -204,10 +210,10 @@
 						<a href="#">Achievements</a>
 					</li>
 					<li data-aos="fade-down" data-aos-delay="600">
-						<a href="gamepick_">Teams</a>
+						<a href="_gamepick_">Teams</a>
 					</li>
 					<li data-aos="fade-down" data-aos-delay="800">
-						<a href="home_">Home</a>
+						<a href="_home_">Home</a>
 					</li>
 				</ul>
 				<div class="sub-container-1">
