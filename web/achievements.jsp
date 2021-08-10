@@ -24,8 +24,8 @@
 		</div>
 		<section class="main-container">
 			<ul class="header-opt" data-aos="fade-in">
-				<li><a href="home">Home</a></li>
 				<li><a href="gamepick">Teams</a></li>
+				<li><a href="home">Home</a></li>
 				<li><a href="login">Login</a></li>
 			</ul>
 			<section class="container_1">

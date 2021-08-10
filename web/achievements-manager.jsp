@@ -48,8 +48,8 @@
 				</div>
 			</nav>
 			<ul class="header-opt" data-aos="fade-in">
-				<li><a href="home_">Home</a></li>
 				<li><a href="gamepick_">Teams</a></li>
+				<li><a href="home_">Home</a></li>
 			</ul>
 			<section class="container_1">
 				<div class="cardList">
