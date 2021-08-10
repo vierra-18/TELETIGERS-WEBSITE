@@ -109,6 +109,67 @@ body.inactive {
   z-index: 10;
 }
 
+.background h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 15em;
+  color: #dd9700;
+  cursor: default;
+  line-height: 110px;
+  letter-spacing: 0.06em;
+  -webkit-transform: skewY(-2deg) !important;
+          transform: skewY(-2deg) !important;
+  font-style: italic;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.background h1.active {
+  opacity: 0;
+}
+
+.bg-1,
+.bg-2 {
+  position: absolute;
+  z-index: 7;
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: 1.3s;
+          transition-delay: 1.3s;
+}
+
+.bg-1 {
+  bottom: 50%;
+}
+
+.bg-1.active {
+  bottom: 100%;
+}
+
+.bg-1.finished {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  background: transparent;
+  display: none;
+}
+
+.bg-2 {
+  top: 50%;
+}
+
+.bg-2.active {
+  top: 100%;
+}
+
+.bg-2.finished {
+  display: none;
+}
+
 .main-container {
   width: 100%;
   min-height: 100%;
@@ -466,8 +527,7 @@ body.inactive {
 .main-container .container_1 .infoList .info__wrapper .info .text {
   position: relative;
   font-family: "Montserrat";
-  font-size: calc(
- 0.5 * var(--card-width) * var(--text-size-offset, 0.1));
+  font-size: calc( 0.5 * var(--card-width) * var(--text-size-offset, 0.1));
   white-space: nowrap;
   color: #fff;
   width: -webkit-fit-content;

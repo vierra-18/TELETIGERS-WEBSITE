@@ -18,7 +18,9 @@
 		<title>Teletigers #tgrwin</title>
 	</head>
 	<body>
-		<section class="background"></section>
+		<section class="background"><h1 class="bg-title">#TGRWIN</h1></section>
+		<section class="bg-1"></section>
+		<section class="bg-2"></section>
 		<div class="header_logo" data-aos="zoom-out">
 			<a href="#"><img src="css/images/Teletigers Text.png" alt="logo" /></a>
 		</div>
@@ -85,7 +87,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="container_2">AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</section>
+			<section class="container_2"></section>
 			<section class="container_3" id="cont3">
 				<div class="text">
 					powered by <img src="css/images/acadarena.png" alt="founder" />
@@ -122,11 +124,18 @@
 		<script>
 			AOS.init({
 				duration: 2000,
+				delay: 2000,
 			});
+			window.onload = function () {
+				$(".bg-1, .bg-2, .bg-title").addClass("active");
+			};
 
 			window.onunload = function () {
 				window.scrollTo(0, 0);
 			};
+			window.setTimeout(function () {
+				$(".bg-1, .bg-2, .main-container").addClass("finished");
+			}, 2250);
 		</script>
 	</body>
 </html>
