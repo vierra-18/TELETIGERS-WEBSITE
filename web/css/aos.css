@@ -897,6 +897,10 @@ body[data-aos-delay="3000"] [data-aos] {
 body[data-aos-delay="3000"] [data-aos].aos-animate {
 	transition-delay: 3s;
 }
+[data-aos][data-aos][data-aos-delay="3100"].aos-animate,
+body[data-aos-delay="3100"] [data-aos].aos-animate {
+	transition-delay: 3.1s;
+}
 
 [data-aos][data-aos][data-aos-delay="3200"].aos-animate,
 body[data-aos-delay="3200"] [data-aos].aos-animate {

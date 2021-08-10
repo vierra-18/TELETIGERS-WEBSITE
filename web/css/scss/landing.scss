@@ -138,5 +138,12 @@ body {
 				-webkit-text-stroke-color: #d8c200;
 			}
 		}
+		.b5,
+		.t1 {
+			&.active {
+				transition: all 0.2s ease;
+				-webkit-text-stroke-color: #d8c200;
+			}
+		}
 	}
 }
