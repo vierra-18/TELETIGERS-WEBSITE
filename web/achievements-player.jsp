@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/achievements-manager_style.css" />
+		<link rel="stylesheet" href="css/achievements-player_style.css" />
 		<link rel="stylesheet" href="css/aos.css" />
 		<link
 			rel="shortcut icon"
@@ -32,7 +32,7 @@
 					<span></span>
 
 					<ul id="menu">
-						<a href="account"><li>ACCOUNT</li></a>
+						<a href="_account"><li>ACCOUNT</li></a>
 						<a href="#"
 							><li>
 								LOGOUT
@@ -48,8 +48,8 @@
 				</div>
 			</nav>
 			<ul class="header-opt" data-aos="fade-in">
-				<li><a href="home">Home</a></li>
-				<li><a href="gamepick">Teams</a></li>
+				<li><a href="_home">Home</a></li>
+				<li><a href="_gamepick">Teams</a></li>
 			</ul>
 			<section class="container_1">
 				<div class="cardList">

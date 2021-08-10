@@ -137,7 +137,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Player Account</servlet-name>
-        <url-pattern>/account</url-pattern>
+        <url-pattern>/_account</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>Owner Home</servlet-name>
@@ -251,6 +251,38 @@
         <servlet-name>Valorant Owner</servlet-name>
         <url-pattern>/_valorant_</url-pattern>
     </servlet-mapping> 
+    <servlet>
+        <servlet-name>Achievements Guest</servlet-name>
+        <jsp-file>achievements.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Achievements Guest</servlet-name>
+        <url-pattern>/achievements</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Achievements Player</servlet-name>
+        <jsp-file>achievements-player.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Achievements Player</servlet-name>
+        <url-pattern>/_achievements</url-pattern>
+    </servlet-mapping> 
+    <servlet>
+        <servlet-name>Achievements Manager</servlet-name>
+        <jsp-file>achievements-manager.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Achievements Manager</servlet-name>
+        <url-pattern>/achievements_</url-pattern>
+    </servlet-mapping>   
+    <servlet>
+        <servlet-name>Achievements Owner</servlet-name>
+        <jsp-file>achievements-owner.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Achievements Owner</servlet-name>
+        <url-pattern>/_achievements_</url-pattern>
+    </servlet-mapping>
     <!--Webpages-->
     <!--Header-->
     <context-param>

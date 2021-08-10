@@ -28,7 +28,7 @@
 		<section class="main-container">
 			<section class="container-1" id="cont1">
 				<ul class="header-opt" data-aos="fade-in">
-					<li><a href="#">Achievements</a></li>
+					<li><a href="achievements">Achievements</a></li>
 					<li><a href="gamepick">Teams</a></li>
 					<li><a href="login">Login</a></li>
 				</ul>

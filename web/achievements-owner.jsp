@@ -32,7 +32,7 @@
 					<span></span>
 
 					<ul id="menu">
-						<a href="account"><li>ACCOUNT</li></a>
+						<a href="_account_"><li>ACCOUNT</li></a>
 						<a href="#"
 							><li>
 								LOGOUT
@@ -48,8 +48,8 @@
 				</div>
 			</nav>
 			<ul class="header-opt" data-aos="fade-in">
-				<li><a href="home">Home</a></li>
-				<li><a href="gamepick">Teams</a></li>
+				<li><a href="_home_">Home</a></li>
+				<li><a href="_gamepick_">Teams</a></li>
 			</ul>
 			<section class="container_1">
 				<div class="cardList">

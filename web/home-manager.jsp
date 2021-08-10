@@ -54,7 +54,7 @@
 			</nav>
 			<section class="container-1" id="cont1">
 				<ul class="header-opt" data-aos="fade-in">
-					<li><a href="#">Achievements</a></li>
+					<li><a href="achievements_">Achievements</a></li>
 					<li><a href="gamepick_">Teams</a></li>
 				</ul>
 

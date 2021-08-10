@@ -56,7 +56,7 @@
 			<section class="container-1" id="cont1">
 				<ul class="header-opt">
 					<li data-aos="fade-in">
-						<a href="#">Achievements</a>
+						<a href="_achievements_">Achievements</a>
 					</li>
 					<li data-aos="fade-in">
 						<a href="_home_">Home</a>

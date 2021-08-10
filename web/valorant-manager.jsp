@@ -49,7 +49,7 @@
 			<section class="container-1" id="cont1">
 				<ul class="header-opt">
 					<li data-aos="fade-down" data-aos-delay="400">
-						<a href="#">Achievements</a>
+						<a href="achievements_">Achievements</a>
 					</li>
 					<li data-aos="fade-down" data-aos-delay="600">
 						<a href="gamepick_">Teams</a>

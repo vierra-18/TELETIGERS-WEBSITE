@@ -38,7 +38,7 @@
 					<span></span>
 
 					<ul id="menu">
-						<a href="account"><li>ACCOUNT</li></a>
+						<a href="_account"><li>ACCOUNT</li></a>
 						<a href="#"
 							><li>
 								LOGOUT
@@ -55,7 +55,7 @@
 			</nav>
 			<section class="container-1" id="cont1">
 				<ul class="header-opt" data-aos="fade-in">
-					<li><a href="#">Achievements</a></li>
+					<li><a href="_achievements">Achievements</a></li>
 					<li><a href="_gamepick">Teams</a></li>
 				</ul>
 
