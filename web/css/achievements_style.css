@@ -31,7 +31,8 @@ body {
   width: auto;
   min-height: 100vh;
   background: url("images/haha.png") no-repeat top center;
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -89,8 +90,7 @@ body.inactive {
   position: absolute;
   height: 100vh;
   width: 100%;
-  background: #000000;
-  opacity: 0.94;
+  background: #000000ee;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,8 +442,189 @@ body.inactive {
 
 .main-container .container_2 {
   width: 100%;
-  height: 100vh;
-  background-color: #0a0a0a;
+  min-height: 100vh;
+  background: #000000ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+  z-index: 999;
+}
+
+.main-container .container_2 header {
+  width: 100%;
+  background: #202020;
+  color: #ffffff;
+  padding: 60px 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .container_2 header h1 {
+  font-family: "Antonio", sans-serif;
+  margin-bottom: -83px;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.main-container .container_2 header p {
+  font-family: "Lekton", sans-serif;
+  font-weight: 800;
+  color: #f5ab0c0c;
+  margin-bottom: 0;
+  font-size: 7em;
+}
+
+.main-container .container_2 .timeline {
+  width: 90%;
+  position: relative;
+}
+
+.main-container .container_2 .timeline::before {
+  content: "";
+  background: #a14e09;
+  width: 5px;
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.main-container .container_2 .timeline h2 {
+  color: #f7cd12;
+}
+
+.main-container .container_2 .timeline p {
+  color: #ffffff;
+}
+
+.main-container .container_2 .timeline .timeline-item {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.main-container .container_2 .timeline .timeline-item:nth-child(even) .timeline-content {
+  float: right;
+  padding: 40px 30px 10px 30px;
+}
+
+.main-container .container_2 .timeline .timeline-item:nth-child(even) .timeline-content .date {
+  right: auto;
+  left: 0;
+}
+
+.main-container .container_2 .timeline .timeline-item::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-img-header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-img-header h2 {
+  color: #f7cd12;
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-content {
+  position: relative;
+  width: 40%;
+  padding: 10px 30px;
+  background: #2b2b2b;
+  -webkit-box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-content a {
+  background: #202020;
+  color: #ffffff;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-content a:hover, .main-container .container_2 .timeline .timeline-item .timeline-content a:active, .main-container .container_2 .timeline .timeline-item .timeline-content a:focus {
+  background: #070707;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-content .date {
+  background: #181818;
+  display: inline-block;
+  color: #ffffff;
+  padding: 7px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-content blockquote {
+  margin-top: 10px;
+  color: #ffffff;
+  border-left-color: #202020;
+  padding: 0 20px;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-img img {
+  width: 50px;
+  height: 50px;
+  background: #181717;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-top: 0px;
+  margin-left: -25px;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-card {
+  padding: 0 !important;
+  width: 44.8% !important;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-card p {
+  padding: 0 20px;
+}
+
+.main-container .container_2 .timeline .timeline-item .timeline-card a {
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .container_3 {

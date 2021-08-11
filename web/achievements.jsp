@@ -87,7 +87,181 @@
 					</div>
 				</div>
 			</section>
-			<section class="container_2"></section>
+			<section class="container_2">
+				<header>
+					<h1>Timeline of Events</h1>
+					<p>UST TELETIGERS</p>
+				</header>
+				<section class="timeline">
+					<div class="container">
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<h2>Title</h2>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content timeline-card">
+								<div class="timeline-img-header">
+									<h2>Card Title</h2>
+								</div>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<div class="date">DATE</div>
+								<h2>Quote</h2>
+								<blockquote>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Dicta explicabo debitis omnis dolor iste fugit totam quasi
+									inventore!
+								</blockquote>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<h2>Title</h2>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content timeline-card">
+								<div class="timeline-img-header">
+									<h2>Card Title</h2>
+								</div>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content timeline-card">
+								<div class="timeline-img-header">
+									<h2>Card Title</h2>
+								</div>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<div class="date">DATE</div>
+								<h2>Quote</h2>
+								<blockquote>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Dicta explicabo debitis omnis dolor iste fugit totam quasi
+									inventore!
+								</blockquote>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content timeline-card">
+								<div class="timeline-img-header">
+									<h2>Card Title</h2>
+								</div>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<div class="date">DATE</div>
+								<h2>Title</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
 			<section class="container_3" id="cont3">
 				<div class="text">
 					powered by <img src="css/images/acadarena.png" alt="founder" />

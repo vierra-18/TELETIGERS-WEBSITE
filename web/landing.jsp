@@ -128,34 +128,6 @@
 			$(".baddest-tgr").addClass("active");
 		}, 1500);
 
-		//		window.setTimeout(function () {
-		//			$(".b1, .t5").addClass("active");
-		//		}, 3500);
-		//		window.setTimeout(function () {
-		//			$(".b1, .t5").removeClass("active");
-		//		}, 3700);
-		//
-		//		window.setTimeout(function () {
-		//			$(".b2, .t4").addClass("active");
-		//		}, 3600);
-		//		window.setTimeout(function () {
-		//			$(".b2, .t4").removeClass("active");
-		//		}, 3800);
-		//
-		//		window.setTimeout(function () {
-		//			$(".b3, .t3").addClass("active");
-		//		}, 3700);
-		//		window.setTimeout(function () {
-		//			$(".b3, .t3").removeClass("active");
-		//		}, 3900);
-		//
-		//		window.setTimeout(function () {
-		//			$(".b4, .t2").addClass("active");
-		//		}, 3800);
-		//		window.setTimeout(function () {
-		//			$(".b4, .t2").removeClass("active");
-		//		}, 4000);
-
 		for (let i = 0; i < 5; i++) {
 			setTimeout(function () {
 				$(`.b\${1 + i}, .t\${5 - i}`).addClass("active");
