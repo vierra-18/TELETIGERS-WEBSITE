@@ -89,11 +89,83 @@
 			</section>
 			<section class="container_2">
 				<header>
-					<h1>Timeline of Events</h1>
+					<h1>Timeline of Success</h1>
 					<p>UST TELETIGERS</p>
 				</header>
 				<section class="timeline">
 					<div class="container">
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<h2>Title</h2>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<h2>Title</h2>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<h2>Title</h2>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<h2>Title</h2>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
 						<div class="timeline-item">
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
@@ -138,13 +210,33 @@
 							</div>
 
 							<div class="timeline-content">
+								<h2>Title</h2>
 								<div class="date">DATE</div>
-								<h2>Quote</h2>
-								<blockquote>
+								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-									Dicta explicabo debitis omnis dolor iste fugit totam quasi
-									inventore!
-								</blockquote>
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+
+							<div class="timeline-content">
+								<h2>Title</h2>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
 							</div>
 						</div>
 
@@ -309,7 +401,7 @@
 			};
 			window.setTimeout(function () {
 				$(".bg-1, .bg-2, .main-container").addClass("finished");
-			}, 2250);
+			}, 2850);
 		</script>
 	</body>
 </html>

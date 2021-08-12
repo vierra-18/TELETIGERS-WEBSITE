@@ -131,10 +131,10 @@
 		for (let i = 0; i < 5; i++) {
 			setTimeout(function () {
 				$(`.b\${1 + i}, .t\${5 - i}`).addClass("active");
-			}, 3700 + i * 100);
+			}, 3500 + i * 100);
 			setTimeout(function () {
 				$(`.b\${1 + i}, .t\${5 - i}`).removeClass("active");
-			}, 3900 + i * 100);
+			}, 3700 + i * 100);
 		}
 	</script>
 </html>

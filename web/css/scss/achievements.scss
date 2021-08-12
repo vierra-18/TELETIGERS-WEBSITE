@@ -368,8 +368,6 @@ body {
 		align-items: center;
 		gap: 2em;
 
-		z-index: 999;
-
 		header {
 			width: 100%;
 			background: $primary;
@@ -400,7 +398,7 @@ body {
 		.timeline {
 			width: 90%;
 			position: relative;
-
+			font-family: "Montserrat", sans-serif;
 			&::before {
 				content: "";
 				background: $light-primary;

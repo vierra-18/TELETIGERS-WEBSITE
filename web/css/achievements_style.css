@@ -458,7 +458,6 @@ body.inactive {
       -ms-flex-align: center;
           align-items: center;
   gap: 2em;
-  z-index: 999;
 }
 
 .main-container .container_2 header {
@@ -499,6 +498,7 @@ body.inactive {
 .main-container .container_2 .timeline {
   width: 90%;
   position: relative;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-container .container_2 .timeline::before {
