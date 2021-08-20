@@ -4,7 +4,7 @@
 			"name": "Launch Microsoft Edge and open the Edge DevTools",
 			"request": "launch",
 			"type": "vscode-edge-devtools.debug",
-			"url": "http://localhost:5500",
+			"url": "http://localhost:8080/TELETIGERS_WEBSITE/web",
 			"webRoot": "${workspaceFolder}" // Provide your project's url to finish configuring
 		}
 	]

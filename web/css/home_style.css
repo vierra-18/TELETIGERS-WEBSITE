@@ -290,6 +290,7 @@ body.inactive {
   font-family: "Montserrat", sans-serif;
   font-style: italic;
   color: #ffffff;
+  letter-spacing: 0.8em;
 }
 
 .main-container .container-1 .cont1-text .con1-images {

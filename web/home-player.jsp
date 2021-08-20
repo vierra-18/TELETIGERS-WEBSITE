@@ -66,9 +66,7 @@
 				/>
 				<div class="cont1-text">
 					<h1 data-aos="fade-right">UST TELETIGERS</h1>
-					<h2 data-aos="fade-right" data-aos-delay="2800">
-						Lorem ipsum dolor sit amet.
-					</h2>
+					<h2 data-aos="fade-right" data-aos-delay="2800">WEAR YOUR STRIPES</h2>
 					<div class="con1-images">
 						<img
 							src="css/images/valo.png"

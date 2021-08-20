@@ -32,7 +32,6 @@
 					<li><a href="gamepick">Teams</a></li>
 					<li><a href="login">Login</a></li>
 				</ul>
-
 				<img
 					src="css/images/LOGO_TELETIGERS 3.png"
 					class="big-logo"
@@ -40,9 +39,7 @@
 				/>
 				<div class="cont1-text">
 					<h1 data-aos="fade-right">UST TELETIGERS</h1>
-					<h2 data-aos="fade-right" data-aos-delay="2800">
-						"ANO NA MOTTO NIYO???"
-					</h2>
+					<h2 data-aos="fade-right" data-aos-delay="2800">Wear your stripes</h2>
 					<div class="con1-images">
 						<img
 							src="css/images/valo.png"
