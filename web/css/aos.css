@@ -927,6 +927,11 @@ body[data-aos-delay="4000"] [data-aos].aos-animate {
 	transition-delay: 4s;
 }
 
+[data-aos][data-aos][data-aos-delay="4200"].aos-animate,
+body[data-aos-delay="4200"] [data-aos].aos-animate {
+	transition-delay: 4.2s;
+}
+
 [data-aos][data-aos][data-aos-easing="linear"],
 body[data-aos-easing="linear"] [data-aos] {
 	transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);

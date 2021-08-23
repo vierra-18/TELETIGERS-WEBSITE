@@ -324,14 +324,15 @@ body {
 		background: transparent;
 		top: 0;
 		.contain {
-			width: 60%;
+			width: 75%;
 			margin: 50px auto;
 			display: flex;
-			gap: 1.8em;
+			justify-content: center;
+			align-items: center;
+			gap: 1.5em;
 			.block {
 				height: 400px;
 				width: 24.5%;
-				margin-right: 0.5%;
 				float: left;
 				background-position: center center;
 				background-size: cover;
@@ -339,26 +340,78 @@ body {
 
 			.leagueOlego {
 				background-image: url("images/lolbg.jpg");
+				&.active {
+					transition: 0.5s ease-in-out;
+					transition-delay: 0s !important;
+					&:hover {
+						filter: grayscale(0);
+					}
+				}
 			}
 
 			.wildrift {
 				background-image: url("images/lolwrbg.jpg");
 				background-position: 36% 100%;
+				&.active {
+					transition: 0.5s ease-in-out;
+					transition-delay: 0s !important;
+					&:hover {
+						filter: grayscale(0);
+					}
+				}
 			}
 
 			.valo {
 				background-image: url("images/valobg.jpg");
+				&.active {
+					transition: 0.5s ease-in-out;
+					transition-delay: 0s !important;
+					&:hover {
+						filter: grayscale(0);
+					}
+				}
 			}
 
 			.emel {
-				/* lol */
 				background-image: url("images/mlbg.jpg");
 				background-position: 10% 100%;
+				&.active {
+					transition: 0.5s ease-in-out;
+					transition-delay: 0s !important;
+					&:hover {
+						filter: grayscale(0);
+					}
+				}
+			}
+
+			.codm {
+				background-image: url("images/codmbg.jpg");
+				background-position: 50% 100%;
+				&.active {
+					transition: 0.5s ease-in-out;
+					transition-delay: 0s !important;
+					&:hover {
+						filter: grayscale(0);
+					}
+				}
+			}
+
+			.tekken {
+				background-image: url("images/tekkenbg.jpg");
+				background-position: 50% 100%;
+				&.active {
+					transition: 0.5s ease-in-out;
+					transition-delay: 0s !important;
+					&:hover {
+						filter: grayscale(0);
+					}
+				}
 			}
 
 			.backfade {
 				position: relative;
 				overflow: hidden;
+				filter: grayscale(1);
 				&:before {
 					content: "";
 					display: block;
@@ -371,20 +424,33 @@ body {
 					transition: all 0.5s ease;
 					transform: translateZ(0);
 				}
-				&.orange:before {
-					background: #eeb02b80;
+				&.yellow:before {
+					background: #c78d0f80;
 				}
 
 				&.blue:before {
 					background: #2b86ee80;
 				}
 
-				&.green:before {
+				&.red:before {
 					background: #ee522b80;
 				}
 
 				&.purple:before {
 					background: #b02bee80;
+				}
+
+				&.green:before {
+					background: #1ca72380;
+				}
+
+				&.bluered:before {
+					background: linear-gradient(
+						60deg,
+						#ee09098a 16%,
+						#002fff85 53%,
+						#a600ff81 96%
+					);
 				}
 
 				&:hover:before {
@@ -421,9 +487,21 @@ body {
 					.emelers {
 						height: 30px;
 					}
+					.c0ders {
+						height: 50px;
+					}
+					.tekkers {
+						height: 50px;
+					}
 				}
 				&:hover .logo {
-					bottom: 80px;
+					bottom: 100px;
+				}
+				&:hover .luna {
+					bottom: 170px;
+				}
+				&:hover .eclipse {
+					bottom: 30px;
 				}
 			}
 		}

@@ -38,37 +38,51 @@
 					data-aos="zoom-out"
 				/>
 				<div class="cont1-text">
-					<h1 data-aos="fade-right">UST TELETIGERS</h1>
-					<h2 data-aos="fade-right" data-aos-delay="2800">Wear your stripes</h2>
+					<h1 data-aos="fade-right">WEAR</h1>
+					<h1 class="mid-text" data-aos="fade-right" data-aos-delay="2500">
+						YOUR
+					</h1>
+					<h1 data-aos="fade-right" data-aos-delay="2700">STRIPES</h1>
 					<div class="con1-images">
-						<img
-							src="css/images/valo.png"
-							class="valo"
-							data-aos="zoom-out"
-							data-aos-duration="700"
-							data-aos-delay="3200"
-						/>
-						<img
-							src="css/images/ml.png"
-							class="emel"
-							data-aos="zoom-out"
-							data-aos-duration="700"
-							data-aos-delay="3400"
-						/>
-						<img
-							src="css/images/lolwr.png"
-							class="lolwr"
-							data-aos="zoom-out"
-							data-aos-duration="700"
-							data-aos-delay="3600"
-						/>
-						<img
-							src="css/images/LoL.png"
-							class="lol"
-							data-aos="zoom-out"
-							data-aos-duration="700"
-							data-aos-delay="3800"
-						/>
+						<div class="first-row">
+							<img
+								src="css/images/LoL.png"
+								class="lol"
+								data-aos="zoom-out"
+								data-aos-duration="700"
+								data-aos-delay="3200"
+							/>
+							<img
+								src="css/images/ml.png"
+								class="emel"
+								data-aos="zoom-out"
+								data-aos-duration="700"
+								data-aos-delay="3400"
+							/>
+							<img
+								src="css/images/lolwr.png"
+								class="lolwr"
+								data-aos="zoom-out"
+								data-aos-duration="700"
+								data-aos-delay="3600"
+							/>
+						</div>
+						<div class="second-row">
+							<img
+								src="css/images/valo.png"
+								class="valo"
+								data-aos="zoom-out"
+								data-aos-duration="700"
+								data-aos-delay="3800"
+							/>
+							<img
+								src="css/images/codmlogo.png"
+								class="codm"
+								data-aos="zoom-out"
+								data-aos-duration="700"
+								data-aos-delay="4000"
+							/>
+						</div>
 					</div>
 				</div>
 			</section>

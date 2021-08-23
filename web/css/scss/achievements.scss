@@ -294,7 +294,7 @@ body {
 				perspective: 1000px;
 				transform-style: preserve-3d;
 				.info {
-					margin-bottom: calc(var(--card-height) / 8);
+					margin-bottom: calc(var(--card-height) / -30);
 					margin-left: calc(var(--card-width) / 1.5);
 					transform: translateZ(2rem);
 					transition: transform var(--card-transition-duration)
@@ -396,7 +396,7 @@ body {
 		}
 
 		.timeline {
-			width: 90%;
+			width: 70%;
 			position: relative;
 			font-family: "Montserrat", sans-serif;
 			&::before {

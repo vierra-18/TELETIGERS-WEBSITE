@@ -66,7 +66,7 @@
 			<section class="container-2" id="cont2">
 				<div class="contain">
 					<div
-						class="block backfade orange leagueOlego"
+						class="block backfade yellow leagueOlego"
 						data-aos="fade-right"
 						data-aos-duration="700"
 						data-aos-delay="2200"
@@ -90,13 +90,21 @@
 					</div>
 
 					<div
-						class="block backfade green valo"
+						class="block backfade red valo"
 						data-aos="fade-right"
 						data-aos-duration="700"
 						data-aos-delay="2600"
 					>
-						<a href="_valorant_"
-							><div class="logo">
+						<a href="valorant"
+							><div class="logo luna">
+								<img src="css/images/valo.png" class="valoers" /></div
+						></a>
+						<a href="valorant"
+							><div class="logo sol">
+								<img src="css/images/valo.png" class="valoers" /></div
+						></a>
+						<a href="valorant"
+							><div class="logo eclipse">
 								<img src="css/images/valo.png" class="valoers" /></div
 						></a>
 					</div>
@@ -111,6 +119,31 @@
 							><div class="logo">
 								<img src="css/images/ml.png" class="emelers" /></div
 						></a>
+					</div>
+
+					<div
+						class="block backfade green codm"
+						data-aos="fade-right"
+						data-aos-duration="700"
+						data-aos-delay="3000"
+					>
+						<a href="#"
+							><div class="logo">
+								<img src="css/images/codmlogo.png" class="c0ders" /></div
+						></a>
+					</div>
+
+					<div
+						class="block backfade bluered tekken"
+						data-aos="fade-right"
+						data-aos-duration="700"
+						data-aos-delay="3200"
+					>
+						<a href="#"
+							><div class="logo">
+								<img src="css/images/codmlogo.png" class="tekkers" /></div
+						></a>
+						<!-- TODO: change logo for tekken -->
 					</div>
 				</div>
 			</section>
@@ -164,6 +197,9 @@
 		}, 2250);
 		window.setTimeout(function () {
 			$("body").removeClass("inactive");
-		}, 2800);
+			$(".leagueOlego, .wildrift, .valo, .emel, .codm, .tekken").addClass(
+				"active"
+			);
+		}, 3000);
 	</script>
 </html>

@@ -437,18 +437,50 @@ body.inactive {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   height: 20%;
   margin-top: 15px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: -30px;
   opacity: 0.3;
+  gap: 1em;
+}
+
+.main-container .container-1 .cont1-text .con1-images .first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.5em;
+}
+
+.main-container .container-1 .cont1-text .con1-images .second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5em;
 }
 
 .main-container .container-1 .cont1-text .con1-images .valo,
@@ -459,6 +491,11 @@ body.inactive {
 
 .main-container .container-1 .cont1-text .con1-images .lolwr {
   height: 60px;
+}
+
+.main-container .container-1 .cont1-text .con1-images .codm {
+  height: 70px;
+  margin-top: -15px;
 }
 
 .main-container .container-2 {
