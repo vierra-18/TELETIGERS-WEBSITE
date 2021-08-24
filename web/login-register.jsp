@@ -19,7 +19,6 @@
             String header = getServletContext().getInitParameter("header");
             String footer = getServletContext().getInitParameter("footer");
             response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-
         %> -->
 
 		<div class="header_logo">

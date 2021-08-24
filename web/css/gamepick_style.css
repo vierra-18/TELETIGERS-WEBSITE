@@ -296,20 +296,20 @@ body.inactive {
   background-size: cover;
 }
 
-.main-container .container-2 .contain .leagueOlego {
-  background-image: url("images/lolbg.jpg");
-}
-
-.main-container .container-2 .contain .leagueOlego.active {
+.main-container .container-2 .contain .block.active {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   -webkit-transition-delay: 0s !important;
           transition-delay: 0s !important;
 }
 
-.main-container .container-2 .contain .leagueOlego.active:hover {
+.main-container .container-2 .contain .block.active:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
+}
+
+.main-container .container-2 .contain .leagueOlego {
+  background-image: url("images/lolbg.jpg");
 }
 
 .main-container .container-2 .contain .wildrift {
@@ -317,32 +317,8 @@ body.inactive {
   background-position: 36% 100%;
 }
 
-.main-container .container-2 .contain .wildrift.active {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  -webkit-transition-delay: 0s !important;
-          transition-delay: 0s !important;
-}
-
-.main-container .container-2 .contain .wildrift.active:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
-}
-
 .main-container .container-2 .contain .valo {
   background-image: url("images/valobg.jpg");
-}
-
-.main-container .container-2 .contain .valo.active {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  -webkit-transition-delay: 0s !important;
-          transition-delay: 0s !important;
-}
-
-.main-container .container-2 .contain .valo.active:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
 }
 
 .main-container .container-2 .contain .emel {
@@ -350,50 +326,14 @@ body.inactive {
   background-position: 10% 100%;
 }
 
-.main-container .container-2 .contain .emel.active {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  -webkit-transition-delay: 0s !important;
-          transition-delay: 0s !important;
-}
-
-.main-container .container-2 .contain .emel.active:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
-}
-
 .main-container .container-2 .contain .codm {
   background-image: url("images/codmbg.jpg");
   background-position: 50% 100%;
 }
 
-.main-container .container-2 .contain .codm.active {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  -webkit-transition-delay: 0s !important;
-          transition-delay: 0s !important;
-}
-
-.main-container .container-2 .contain .codm.active:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
-}
-
 .main-container .container-2 .contain .tekken {
   background-image: url("images/tekkenbg.jpg");
   background-position: 50% 100%;
-}
-
-.main-container .container-2 .contain .tekken.active {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  -webkit-transition-delay: 0s !important;
-          transition-delay: 0s !important;
-}
-
-.main-container .container-2 .contain .tekken.active:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
 }
 
 .main-container .container-2 .contain .backfade {

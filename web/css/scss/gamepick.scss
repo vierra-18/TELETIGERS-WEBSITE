@@ -217,10 +217,6 @@ body {
 				float: left;
 				background-position: center center;
 				background-size: cover;
-			}
-
-			.leagueOlego {
-				background-image: url("images/lolbg.jpg");
 				&.active {
 					transition: 0.5s ease-in-out;
 					transition-delay: 0s !important;
@@ -228,65 +224,34 @@ body {
 						filter: grayscale(0);
 					}
 				}
+			}
+
+			.leagueOlego {
+				background-image: url("images/lolbg.jpg");
 			}
 
 			.wildrift {
 				background-image: url("images/lolwrbg.jpg");
 				background-position: 36% 100%;
-				&.active {
-					transition: 0.5s ease-in-out;
-					transition-delay: 0s !important;
-					&:hover {
-						filter: grayscale(0);
-					}
-				}
 			}
 
 			.valo {
 				background-image: url("images/valobg.jpg");
-				&.active {
-					transition: 0.5s ease-in-out;
-					transition-delay: 0s !important;
-					&:hover {
-						filter: grayscale(0);
-					}
-				}
 			}
 
 			.emel {
 				background-image: url("images/mlbg.jpg");
 				background-position: 10% 100%;
-				&.active {
-					transition: 0.5s ease-in-out;
-					transition-delay: 0s !important;
-					&:hover {
-						filter: grayscale(0);
-					}
-				}
 			}
 
 			.codm {
 				background-image: url("images/codmbg.jpg");
 				background-position: 50% 100%;
-				&.active {
-					transition: 0.5s ease-in-out;
-					transition-delay: 0s !important;
-					&:hover {
-						filter: grayscale(0);
-					}
-				}
 			}
 
 			.tekken {
 				background-image: url("images/tekkenbg.jpg");
 				background-position: 50% 100%;
-				&.active {
-					transition: 0.5s ease-in-out;
-					transition-delay: 0s !important;
-					&:hover {
-						filter: grayscale(0);
-					}
-				}
 			}
 
 			.backfade {

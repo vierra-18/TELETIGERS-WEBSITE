@@ -166,9 +166,7 @@
 		}, 2250);
 		window.setTimeout(function () {
 			$("body").removeClass("inactive");
-			$(".leagueOlego, .wildrift, .valo, .emel, .codm, .tekken").addClass(
-				"active"
-			);
+			$(".block").addClass("active");
 		}, 3000);
 	</script>
 </html>

@@ -231,32 +231,6 @@ body {
   width: 100%;
 }
 
-#menu li #download-form {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 120px;
-  height: 12%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-#menu li #download-form #download {
-  position: absolute;
-  top: 0;
-  left: 1%;
-  width: 100%;
-}
-
 .header_logo {
   height: 12%;
   position: fixed;
