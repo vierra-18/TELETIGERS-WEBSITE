@@ -129,7 +129,7 @@
 					>
 						<a href="#"
 							><div class="logo">
-								<img src="css/images/codmlogo.png" class="c0ders" /></div
+								<img src="css/images/tekken-logo.png" class="c0ders" /></div
 						></a>
 					</div>
 

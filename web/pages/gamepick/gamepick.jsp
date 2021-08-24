@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<!-- //TODO: php does not support direct folder calls on linking css -->
+<!-- //TODO: change file path when converting to php -->
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -27,10 +31,16 @@
 		</div>
 		<section class="main-container">
 			<section class="container-1" id="cont1">
-				<ul class="header-opt" data-aos="fade-in">
-					<li><a href="achievements">Achievements</a></li>
-					<li><a href="home">Home</a></li>
-					<li><a href="login">Login</a></li>
+				<ul class="header-opt" data-aos="fade-in" data-aos-delay="2000">
+					<li>
+						<a href="achievements">Achievements</a>
+					</li>
+					<li>
+						<a href="home">Home</a>
+					</li>
+					<li>
+						<a href="login">Login</a>
+					</li>
 				</ul>
 			</section>
 			<section class="container-2" id="cont2">
@@ -111,9 +121,8 @@
 					>
 						<a href="#"
 							><div class="logo">
-								<img src="css/images/codmlogo.png" class="tekkers" /></div
+								<img src="css/images/tekken-logo.png" class="tekkers" /></div
 						></a>
-						<!-- TODO: change logo for tekken -->
 					</div>
 				</div>
 			</section>
@@ -153,6 +162,7 @@
 	<script>
 		AOS.init({
 			duration: 2000,
+			delay: 2000,
 		});
 		window.onload = function () {
 			$(".bg-1, .bg-2, .bg-title").addClass("active");
