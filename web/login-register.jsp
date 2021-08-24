@@ -62,7 +62,7 @@
 						class="form-field"
 						placeholder="Password"
 					/>
-
+					<!-- 
 					<div class="captcha-container">
 						<img src="CaptchaGenerator.jpg" />
 					</div>
@@ -70,7 +70,7 @@
 						class="textbox"
 						name="captchaAnswer"
 						placeholder="Enter Captcha"
-					/>
+					/> -->
 
 					<input
 						data-aos="zoom-out"
