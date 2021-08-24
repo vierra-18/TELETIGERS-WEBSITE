@@ -48,17 +48,6 @@
 						<a href="#" id="update" class="button" onclick="revert();hide();"
 							><li>UPDATE PASSWORD</li></a
 						>
-						<a href="#"
-							><li>
-								DOWNLOAD DATA
-								<form
-									action="${pageContext.request.contextPath}/ManagerPDF"
-									method="post"
-									id="download-form"
-								>
-									<input type="submit" value="DOWNLOAD" id="download" />
-								</form></li
-						></a>
 					</ul>
 				</div>
 			</nav>
