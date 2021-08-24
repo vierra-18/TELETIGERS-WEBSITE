@@ -79,7 +79,7 @@
     <!--Exceptions-->
     <servlet>
         <servlet-name>Authentication_errJsp</servlet-name>
-        <jsp-file>authenticate_err.jsp</jsp-file>
+        <jsp-file>/pages/error/authenticate_err.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Authentication_errJsp</servlet-name>
@@ -87,7 +87,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>NullVal_errJsp</servlet-name>
-        <jsp-file>null_error.jsp</jsp-file>
+        <jsp-file>/pages/error/null_error.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>NullVal_errJsp</servlet-name>
@@ -95,7 +95,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>ErrorJsp</servlet-name>
-        <jsp-file>404_err.jsp</jsp-file>
+        <jsp-file>/pages/error/404_err.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>ErrorJsp</servlet-name>
@@ -111,13 +111,13 @@
     </error-page>
     <error-page>
         <error-code>404</error-code>
-        <location>/404_err.jsp</location>
+        <location>/pages/error/404_err.jsp</location>
     </error-page>
     <!--Exceptions-->
     <!--Webpages-->
     <servlet>
         <servlet-name>Admin Account</servlet-name>
-        <jsp-file>account-admin.jsp</jsp-file>
+        <jsp-file>/pages/account/account-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Admin Account</servlet-name>
@@ -125,7 +125,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Manager Account</servlet-name>
-        <jsp-file>account-manager.jsp</jsp-file>
+        <jsp-file>/pages/account/account-manager.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Manager Account</servlet-name>
@@ -133,7 +133,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Player Account</servlet-name>
-        <jsp-file>account-player.jsp</jsp-file>
+        <jsp-file>/pages/account/account-player.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Player Account</servlet-name>
@@ -141,7 +141,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Admin Home</servlet-name>
-        <jsp-file>home-admin.jsp</jsp-file>
+        <jsp-file>/pages/home/home-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Admin Home</servlet-name>
@@ -149,7 +149,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Manager Home</servlet-name>
-        <jsp-file>home-manager.jsp</jsp-file>
+        <jsp-file>/pages/home/home-manager.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Manager Home</servlet-name>
@@ -157,7 +157,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Player Home</servlet-name>
-        <jsp-file>home-player.jsp</jsp-file>
+        <jsp-file>/pages/home/home-player.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Player Home</servlet-name>
@@ -165,7 +165,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Guest Home</servlet-name>
-        <jsp-file>home.jsp</jsp-file>
+        <jsp-file>/pages/home/home.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Guest Home</servlet-name>
@@ -189,7 +189,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Game Pick Guest</servlet-name>
-        <jsp-file>gamepick.jsp</jsp-file>
+        <jsp-file>/pages/gamepick/gamepick.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Game Pick Guest</servlet-name>
@@ -197,7 +197,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>GamePick Player</servlet-name>
-        <jsp-file>gamepick-player.jsp</jsp-file>
+        <jsp-file>/pages/gamepick/gamepick-player.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>GamePick Player</servlet-name>
@@ -205,7 +205,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>GamePick Manager</servlet-name>
-        <jsp-file>gamepick-manager.jsp</jsp-file>
+        <jsp-file>/pages/gamepick/gamepick-manager.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>GamePick Manager</servlet-name>
@@ -213,7 +213,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>GamePick Admin</servlet-name>
-        <jsp-file>gamepick-admin.jsp</jsp-file>
+        <jsp-file>/pages/gamepick/gamepick-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>GamePick Admin</servlet-name>
@@ -221,7 +221,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Valorant Guest</servlet-name>
-        <jsp-file>valorant-guest.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/valorant-guest.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Guest</servlet-name>
@@ -229,7 +229,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Valorant Player</servlet-name>
-        <jsp-file>valorant-player.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/valorant-player.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Player</servlet-name>
@@ -237,7 +237,7 @@
     </servlet-mapping> 
     <servlet>
         <servlet-name>Valorant Manager</servlet-name>
-        <jsp-file>valorant-manager.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/valorant-manager.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Manager</servlet-name>
@@ -245,7 +245,7 @@
     </servlet-mapping>   
     <servlet>
         <servlet-name>Valorant Admin</servlet-name>
-        <jsp-file>valorant-admin.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/valorant-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Admin</servlet-name>
@@ -253,7 +253,7 @@
     </servlet-mapping> 
     <servlet>
         <servlet-name>Achievements Guest</servlet-name>
-        <jsp-file>achievements.jsp</jsp-file>
+        <jsp-file>/pages/achievements/achievements.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Achievements Guest</servlet-name>
@@ -261,7 +261,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Achievements Player</servlet-name>
-        <jsp-file>achievements-player.jsp</jsp-file>
+        <jsp-file>/pages/achievements/achievements-player.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Achievements Player</servlet-name>
@@ -269,7 +269,7 @@
     </servlet-mapping> 
     <servlet>
         <servlet-name>Achievements Manager</servlet-name>
-        <jsp-file>achievements-manager.jsp</jsp-file>
+        <jsp-file>/pages/achievements/achievements-manager.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Achievements Manager</servlet-name>
@@ -277,7 +277,7 @@
     </servlet-mapping>   
     <servlet>
         <servlet-name>Achievements Admin</servlet-name>
-        <jsp-file>achievements-admin.jsp</jsp-file>
+        <jsp-file>/pages/achievements/achievements-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Achievements Admin</servlet-name>
