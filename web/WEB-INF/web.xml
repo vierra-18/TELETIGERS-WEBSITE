@@ -116,11 +116,11 @@
     <!--Exceptions-->
     <!--Webpages-->
     <servlet>
-        <servlet-name>Owner Account</servlet-name>
-        <jsp-file>account-owner.jsp</jsp-file>
+        <servlet-name>Admin Account</servlet-name>
+        <jsp-file>account-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Owner Account</servlet-name>
+        <servlet-name>Admin Account</servlet-name>
         <url-pattern>/_account_</url-pattern>
     </servlet-mapping>
     <servlet>
@@ -140,11 +140,11 @@
         <url-pattern>/_account</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>Owner Home</servlet-name>
-        <jsp-file>home-owner.jsp</jsp-file>
+        <servlet-name>Admin Home</servlet-name>
+        <jsp-file>home-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Owner Home</servlet-name>
+        <servlet-name>Admin Home</servlet-name>
         <url-pattern>/_home_</url-pattern>
     </servlet-mapping>
     <servlet>
@@ -212,11 +212,11 @@
         <url-pattern>/gamepick_</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>GamePick Owner</servlet-name>
-        <jsp-file>gamepick-owner.jsp</jsp-file>
+        <servlet-name>GamePick Admin</servlet-name>
+        <jsp-file>gamepick-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>GamePick Owner</servlet-name>
+        <servlet-name>GamePick Admin</servlet-name>
         <url-pattern>/_gamepick_</url-pattern>
     </servlet-mapping>
     <servlet>
@@ -244,11 +244,11 @@
         <url-pattern>/valorant_</url-pattern>
     </servlet-mapping>   
     <servlet>
-        <servlet-name>Valorant Owner</servlet-name>
-        <jsp-file>valorant-owner.jsp</jsp-file>
+        <servlet-name>Valorant Admin</servlet-name>
+        <jsp-file>valorant-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Valorant Owner</servlet-name>
+        <servlet-name>Valorant Admin</servlet-name>
         <url-pattern>/_valorant_</url-pattern>
     </servlet-mapping> 
     <servlet>
@@ -276,11 +276,11 @@
         <url-pattern>/achievements_</url-pattern>
     </servlet-mapping>   
     <servlet>
-        <servlet-name>Achievements Owner</servlet-name>
-        <jsp-file>achievements-owner.jsp</jsp-file>
+        <servlet-name>Achievements Admin</servlet-name>
+        <jsp-file>achievements-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Achievements Owner</servlet-name>
+        <servlet-name>Achievements Admin</servlet-name>
         <url-pattern>/_achievements_</url-pattern>
     </servlet-mapping>
     <!--Webpages-->
