@@ -115,11 +115,9 @@ public class checker extends HttpServlet {
             if (userInput.trim().isEmpty() && passInput.isEmpty()) {
                 throw new NullValueException();
             } else if ((userInput.trim().equals(userRec) && passInput.equals(passRec))) {
-                String answer = request.getParameter("captchaAnswer");
+                
 
-                Captcha captcha = (Captcha) request.getSession().getAttribute(NAME);
-
-                if (captcha.isCorrect(answer)) {
+                
                     System.out.println("Password Matches");
                     if (role.equals("Manager")) {
                         response.sendRedirect("home_");
@@ -136,17 +134,7 @@ public class checker extends HttpServlet {
                     context.setAttribute("SessionRole", role);
                     context.setAttribute("SessionGame", game);
                     context.setAttribute("SessionName", name);
-                } else {
-                    Messenger msg = new Messenger();
-                    msg.setMessage(captchaerror);
-
-                    ServletContext sc = getServletContext();
-                    sc.setAttribute("msg", msg);
-
-                    MessageContextListener usl = new MessageContextListener();
-                    usl.contextInitialized(new ServletContextEvent(sc));;
-                    throw new AuthenticationException();
-                }
+                 
 
             } else if (!userInput.trim().equals(userRec) && passInput.isEmpty()) {
 
