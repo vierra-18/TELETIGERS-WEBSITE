@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="css/login_style.css" type="text/css" />
+		<link rel="stylesheet" href="css/styles/login_style.css" type="text/css" />
 		<link rel="stylesheet" href="css/aos.css" />
 		<link
 			rel="shortcut icon"

@@ -30,7 +30,7 @@ html {
 body {
   width: auto;
   min-height: 100vh;
-  background: url("images/haha.png") no-repeat top center;
+  background: url("../images/haha.png") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;

@@ -4,13 +4,17 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/valorant-admin_style.css" />
+		<link rel="stylesheet" href="css/styles/valorant-admin_style.css" />
 		<link rel="stylesheet" href="css/aos.css" />
 		<link
 			rel="shortcut icon"
 			href="css/images/tiger-icon.png"
 			type="image/x-icon"
 		/>
+		<script
+			crossorigin="anonymous"
+			src="https://kit.fontawesome.com/c8e4d183c2.js"
+		></script>
 		<title>Teletigers #tgrwin</title>
 	</head>
 	<% ServletContext sc = request.getServletContext();
@@ -160,6 +164,33 @@
 						</div>
 					</div>
 				</div>
+			</section>
+			<section class="container-3" id="cont3">
+				<div class="text">
+					powered by <img src="css/images/acadarena.png" alt="founder" />
+				</div>
+				<div class="contact" id="contact">
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/TeletigersEsports"
+								><i class="fab fa-facebook-f"></i
+							></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-twitch"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-youtube"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="text">all rights reserved 2021</div>
 			</section>
 		</section>
 	</body>

@@ -11,7 +11,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/error_style.css" />
+        <link rel="stylesheet" href="css/styles/error_style.css" />
         <link rel="stylesheet" href="css/aos.css" />
         <link
             rel="shortcut icon"
@@ -29,8 +29,8 @@
         %> -->
         <div class="header_logo">
             <a href="#" data-aos="fade-right"
-               ><img src="css/images/Teletigers Text.png"
-                  /></a>
+            ><img src="css/images/Teletigers Text.png"
+            /></a>
         </div>
         <div id="container" data-aos="zoom-out">
             <div class="content">
