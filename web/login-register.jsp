@@ -10,6 +10,10 @@
 			href="css/images/tiger-icon.png"
 			type="image/x-icon"
 		/>
+		<script
+			crossorigin="anonymous"
+			src="https://kit.fontawesome.com/c8e4d183c2.js"
+		></script>
 		<title>Teletigers #tgrwin</title>
 	</head>
 
@@ -80,14 +84,13 @@
 					/>
 				</form>
 			</div>
-			<div class="footer">
-				<!-- <a href="#"><% out.println(footer);%></a> -->
+			<!-- <div class="footer">
 				<a href="#">All Rights Reserved 2021</a>
-			</div>
+			</div> -->
 			<section class="right">
 				<div class="background"></div>
 			</section>
-			<div class="text">
+			<div class="tgr-text">
 				<h1 data-aos="slide-right">
 					#USTTGR<span class="tgr tgr-1">VALORANT</span>EXIA
 				</h1>
@@ -100,24 +103,38 @@
 				<h1 data-aos="slide-left">
 					TTGRWIN<span class="tgr tgr-4">WILDRIFTPH</span>TELETIGERS
 				</h1>
-				<h1 data-aos="slide-right">
+				<h1 data-aos="slide-right" data-aos-anchor=".tgr-1">
 					BESTSUPP<span class="tgr tgr-5">LOLPH</span>CRESHO
 				</h1>
-				<!-- GAMES+EASTEREGSS -->
-				<!-- <h1>#UTGR<span class="tgr tgr-1">TELETIGERS</span>MLBB</h1>
-                <h1>TGRWIN<span class="tgr tgr-2">TELETIGERS</span>VALORANT</h1>
-                <h1>#USTTTG<span class="tgr tgr-3">TELETIGERS</span>TGRWIN</h1>
-                <h1>TIGERWIN<span class="tgr tgr-4">TELETIGERS</span>LOLWR</h1>
-                <h1>TIGERSUST<span class="tgr tgr-5">TELETIGERS</span>UST</h1>  -->
-				<!-- STAIRS -->
-				<!-- <h1>#USTTGR<span class="tgr tgr-1">TELETIGERS</span>MLBB</h1>
-                <h1>VALORANT<span class="tgr tgr-2">TELETIGERS</span>TGRWIN</h1>
-                <h1>#TIGERWIN<span class="tgr tgr-3">TELETIGERS</span>TGRWIN</h1>
-                <h1>WILDRIFT<span class="tgr tgr-4">TELETIGERS</span>#TGRWIN</h1>
-                <h1>TIGERLOL<span class="tgr tgr-5">TELETIGERS</span>UST</h1> -->
-				<!-- SABOG -->
 			</div>
 		</div>
+		<section class="container_3" id="cont3">
+			<div class="text">
+				powered by <img src="css/images/acadarena.png" alt="founder" />
+			</div>
+			<div class="contact" id="contact">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/TeletigersEsports"
+							><i class="fab fa-facebook-f"></i
+						></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-twitch"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="text">all rights reserved 2021</div>
+		</section>
 	</body>
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="js/aos.js"></script>

@@ -505,7 +505,7 @@ body.inactive {
   content: "";
   background: #d4aa1d;
   width: 5px;
-  height: 95%;
+  height: 94.5%;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);

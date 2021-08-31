@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -31,6 +30,7 @@
 				<li><a href="home">Home</a></li>
 				<li><a href="login">Login</a></li>
 			</ul>
+			<!-- automatic swiper -->
 			<section class="container_1">
 				<div class="cardList">
 					<div class="cards__wrapper">
@@ -88,10 +88,11 @@
 					</div>
 				</div>
 			</section>
+			<!-- end of automatic slider -->
 
-			<!--timeline of succes-->
+			<!--timeline of success-->
 			<section class="container_2">
-				<header>
+				<header data-aos="flip-down" data-aos-delay="50" data-duration="100">
 					<h1>Timeline of Success</h1>
 					<p>UST TELETIGERS</p>
 				</header>
@@ -101,8 +102,12 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-left"
+								data-aos-delay="50"
+								data-aos-once="true"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -119,8 +124,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-right"
+								data-aos-delay="50"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -137,8 +145,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-left"
+								data-aos-delay="50"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -155,8 +166,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-right"
+								data-aos-delay="50"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -173,8 +187,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-left"
+								data-aos-delay="50"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -187,12 +204,16 @@
 							</div>
 						</div>
 
+						<!-- card with header  -->
 						<div class="timeline-item">
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content timeline-card">
+							<div
+								class="timeline-content timeline-card"
+								data-aos="fade-right"
+								data-aos-delay="50"
+							>
 								<div class="timeline-img-header">
 									<h2>Card Title</h2>
 								</div>
@@ -211,8 +232,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-left"
+								data-aos-delay="50"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -229,8 +253,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-right"
+								data-aos-delay="50"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -247,8 +274,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-left"
+								data-aos-delay="50"
+							>
 								<h2>Title</h2>
 								<div class="date">DATE</div>
 								<p>
@@ -261,12 +291,40 @@
 							</div>
 						</div>
 
+						<!-- card with header  -->
 						<div class="timeline-item">
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
+							<div
+								class="timeline-content timeline-card"
+								data-aos="fade-right"
+								data-aos-delay="50"
+							>
+								<div class="timeline-img-header">
+									<h2>Card Title</h2>
+								</div>
+								<div class="date">DATE</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
+									aperiam sed nulla voluptatem recusandae dolor, nostrum
+									excepturi amet in dolores. Alias, ullam.
+								</p>
+								<a class="bnt-more" href="#">More</a>
+							</div>
+						</div>
 
-							<div class="timeline-content timeline-card">
+						<!-- card with header  -->
+						<div class="timeline-item">
+							<div class="timeline-img">
+								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
+							</div>
+							<div
+								class="timeline-content timeline-card"
+								data-aos="fade-left"
+								data-aos-delay="50"
+							>
 								<div class="timeline-img-header">
 									<h2>Card Title</h2>
 								</div>
@@ -285,44 +343,31 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content timeline-card">
-								<div class="timeline-img-header">
-									<h2>Card Title</h2>
-								</div>
-								<div class="date">DATE</div>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-									Maxime ipsa ratione omnis alias cupiditate saepe atque totam
-									aperiam sed nulla voluptatem recusandae dolor, nostrum
-									excepturi amet in dolores. Alias, ullam.
-								</p>
-								<a class="bnt-more" href="#">More</a>
-							</div>
-						</div>
-
-						<div class="timeline-item">
-							<div class="timeline-img">
-								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
-							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-right"
+								data-aos-delay="50"
+							>
 								<div class="date">DATE</div>
 								<h2>Quote</h2>
-								<blockquote>
+								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 									Dicta explicabo debitis omnis dolor iste fugit totam quasi
 									inventore!
-								</blockquote>
+								</p>
 							</div>
 						</div>
 
+						<!-- card with header  -->
 						<div class="timeline-item">
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content timeline-card">
+							<div
+								class="timeline-content timeline-card"
+								data-aos="fade-left"
+								data-aos-delay="50"
+							>
 								<div class="timeline-img-header">
 									<h2>Card Title</h2>
 								</div>
@@ -341,8 +386,11 @@
 							<div class="timeline-img">
 								<img src="css/images/LOGO_TELETIGERS 2.png" alt="" />
 							</div>
-
-							<div class="timeline-content">
+							<div
+								class="timeline-content"
+								data-aos="fade-right"
+								data-aos-delay="50"
+							>
 								<div class="date">DATE</div>
 								<h2>Title</h2>
 								<p>
@@ -359,6 +407,7 @@
 			</section>
 			<!-- end of timeline of success -->
 
+			<!-- footer container  -->
 			<section class="container_3" id="cont3">
 				<div class="text">
 					powered by <img src="css/images/acadarena.png" alt="founder" />
@@ -386,6 +435,7 @@
 				</div>
 				<div class="text">all rights reserved 2021</div>
 			</section>
+			<!-- end of footer container  -->
 		</section>
 		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
@@ -396,6 +446,7 @@
 			AOS.init({
 				duration: 2000,
 				delay: 2000,
+				once: true,
 			});
 			window.onload = function () {
 				$(".bg-1, .bg-2, .bg-title").addClass("active");
@@ -407,6 +458,14 @@
 			window.setTimeout(function () {
 				$(".bg-1, .bg-2, .main-container").addClass("finished");
 			}, 2850);
+
+			document.addEventListener("aos:in", ({ detail }) => {
+				console.log("animated in", detail);
+			});
+
+			document.addEventListener("aos:out", ({ detail }) => {
+				console.log("animated out", detail);
+			});
 		</script>
 	</body>
 </html>
