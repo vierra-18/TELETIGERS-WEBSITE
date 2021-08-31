@@ -43,7 +43,11 @@
 						<a href="#"
 							><li>
 								LOGOUT
-								<form id="logout-form" action="" method="post">
+								<form
+									id="logout-form"
+									action="${pageContext.request.contextPath}/Logout"
+									method="post"
+								>
 									<input type="submit" value="LOGOUT" id="logout" />
 								</form></li
 						></a>

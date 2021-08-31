@@ -697,7 +697,7 @@ body {
   content: ":";
 }
 
-.main-container .container_3 {
+.main-container .container-3 {
   height: 13vh;
   width: 100%;
   display: -webkit-box;
@@ -716,7 +716,7 @@ body {
   background: #2b2b2b;
 }
 
-.main-container .container_3 .text {
+.main-container .container-3 .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,16 +737,16 @@ body {
   color: #999999;
 }
 
-.main-container .container_3 .text img {
+.main-container .container-3 .text img {
   margin-left: 10px;
   height: 30px;
 }
 
-.main-container .container_3 .contact {
+.main-container .container-3 .contact {
   width: 100%;
 }
 
-.main-container .container_3 .contact ul {
+.main-container .container-3 .contact ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -759,7 +759,7 @@ body {
           justify-content: center;
 }
 
-.main-container .container_3 .contact ul li {
+.main-container .container-3 .contact ul li {
   position: relative;
   display: block;
   color: #666;
@@ -775,7 +775,7 @@ body {
   transition: 0.5s;
 }
 
-.main-container .container_3 .contact ul li a {
+.main-container .container-3 .contact ul li a {
   height: 100%;
   width: 100%;
   color: #666;
@@ -785,7 +785,7 @@ body {
   padding: 12px;
 }
 
-.main-container .container_3 .contact ul li:before {
+.main-container .container-3 .contact ul li:before {
   position: absolute;
   content: "";
   top: 0;
@@ -800,87 +800,87 @@ body {
   transition: 0.5s;
 }
 
-.main-container .container_3 .contact ul li:nth-child(1):before {
+.main-container .container-3 .contact ul li:nth-child(1):before {
   background: #0055ff;
 }
 
-.main-container .container_3 .contact ul li:nth-child(2):before {
+.main-container .container-3 .contact ul li:nth-child(2):before {
   background: #1da1f2;
 }
 
-.main-container .container_3 .contact ul li:nth-child(3):before {
+.main-container .container-3 .contact ul li:nth-child(3):before {
   background: #e1306c;
 }
 
-.main-container .container_3 .contact ul li:nth-child(4):before {
+.main-container .container-3 .contact ul li:nth-child(4):before {
   background: #9649dd;
 }
 
-.main-container .container_3 .contact ul li:nth-child(5):before {
+.main-container .container-3 .contact ul li:nth-child(5):before {
   background: #ff0000;
 }
 
-.main-container .container_3 .contact ul li:hover:before {
+.main-container .container-3 .contact ul li:hover:before {
   -webkit-filter: blur(3px);
           filter: blur(3px);
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.main-container .container_3 .contact ul li:nth-child(1):hover:before {
+.main-container .container-3 .contact ul li:nth-child(1):hover:before {
   -webkit-box-shadow: 0 0 15px #0055ff;
           box-shadow: 0 0 15px #0055ff;
 }
 
-.main-container .container_3 .contact ul li:nth-child(2):hover:before {
+.main-container .container-3 .contact ul li:nth-child(2):hover:before {
   -webkit-box-shadow: 0 0 15px #1da1f2;
           box-shadow: 0 0 15px #1da1f2;
 }
 
-.main-container .container_3 .contact ul li:nth-child(3):hover:before {
+.main-container .container-3 .contact ul li:nth-child(3):hover:before {
   -webkit-box-shadow: 0 0 15px #e1306c;
           box-shadow: 0 0 15px #e1306c;
 }
 
-.main-container .container_3 .contact ul li:nth-child(4):hover:before {
+.main-container .container-3 .contact ul li:nth-child(4):hover:before {
   -webkit-box-shadow: 0 0 15px #9649dd;
           box-shadow: 0 0 15px #9649dd;
 }
 
-.main-container .container_3 .contact ul li:nth-child(5):hover:before {
+.main-container .container-3 .contact ul li:nth-child(5):hover:before {
   -webkit-box-shadow: 0 0 15px #ff0000;
           box-shadow: 0 0 15px #ff0000;
 }
 
-.main-container .container_3 .contact ul li:nth-child(1):hover {
+.main-container .container-3 .contact ul li:nth-child(1):hover {
   color: #004ce4;
   -webkit-box-shadow: 0 0 15px #004ce4;
           box-shadow: 0 0 15px #004ce4;
   text-shadow: 0 0 15px #004ce4;
 }
 
-.main-container .container_3 .contact ul li:nth-child(2):hover {
+.main-container .container-3 .contact ul li:nth-child(2):hover {
   color: #26a4f2;
   -webkit-box-shadow: 0 0 15px #1da1f2;
           box-shadow: 0 0 15px #1da1f2;
   text-shadow: 0 0 15px #1da1f2;
 }
 
-.main-container .container_3 .contact ul li:nth-child(3):hover {
+.main-container .container-3 .contact ul li:nth-child(3):hover {
   color: #e23670;
   -webkit-box-shadow: 0 0 15px #e1306c;
           box-shadow: 0 0 15px #e1306c;
   text-shadow: 0 0 15px #e1306c;
 }
 
-.main-container .container_3 .contact ul li:nth-child(4):hover {
+.main-container .container-3 .contact ul li:nth-child(4):hover {
   color: #9649dd;
   -webkit-box-shadow: 0 0 15px #9649dd;
           box-shadow: 0 0 15px #9649dd;
   text-shadow: 0 0 15px #9649dd;
 }
 
-.main-container .container_3 .contact ul li:nth-child(5):hover {
+.main-container .container-3 .contact ul li:nth-child(5):hover {
   color: #ff1a1a;
   -webkit-box-shadow: 0 0 15px #ff0000;
           box-shadow: 0 0 15px #ff0000;

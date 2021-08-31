@@ -39,11 +39,15 @@
 					<span></span>
 
 					<ul id="menu">
-						<a href="account"><li>ACCOUNT</li></a>
+						<a href="_account"><li>ACCOUNT</li></a>
 						<a href="#"
 							><li>
 								LOGOUT
-								<form id="logout-form" action="" method="post">
+								<form
+									id="logout-form"
+									action="${pageContext.request.contextPath}/Logout"
+									method="post"
+								>
 									<input type="submit" value="LOGOUT" id="logout" />
 								</form></li
 						></a>

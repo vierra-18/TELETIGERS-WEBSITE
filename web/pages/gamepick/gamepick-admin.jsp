@@ -143,7 +143,6 @@
 							><div class="logo">
 								<img src="css/images/tekken-logo.png" class="tekkers" /></div
 						></a>
-						<!-- TODO: change logo for tekken -->
 					</div>
 				</div>
 			</section>
