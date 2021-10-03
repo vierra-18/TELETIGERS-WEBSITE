@@ -1,0 +1,13 @@
+.transition-fade {
+	opacity: 1;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.sub-container-1 h1 {
+	color: white;
+}
+
+html.is-animating .transition-fade {
+	opacity: 0;
+}

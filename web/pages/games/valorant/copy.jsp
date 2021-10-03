@@ -48,7 +48,7 @@
 				</ul>
 				<main id="swup" class="sub-container-1 transition-fade">
 					<div
-						class="img-container-capt player-card"
+						class="img-container-capt player-card finished active"
 						data-aos="fade-right"
 						data-aos-delay="600"
 					>
@@ -56,31 +56,34 @@
 							src="css/images/TGR Exia.png"
 							alt="profile-picture"
 							data-aos="zoom-in"
-							data-aos-delay="700"
 						/>
 
 						<div class="player-info">
 							<h1>TGR EXIA</h1>
-							<a href="/TELETIGERS_WEBSITE/copy" class="btn"
-								><span>See more</span>
-							</a>
+							<a href="/TELETIGERS_WEBSITE/valorant" class="btn"
+								><span>See less</span></a
+							>
 						</div>
 					</div>
-					<fieldset class="capt-text inactive">
+					<fieldset
+						class="capt-text"
+						data-aos="zoom-out-right"
+						data-aos-delay="650"
+					>
 						"Being a part of Teletigers, it gave me the chance to be in a team
 						environment in order to improve myself not just as a student-gamer
 						but also as a person. As the captain of the valorant team, it helped
 						me gain confidence as well as the experience of being able to lead
 						people to better ourselves in order to improve team as a whole."
-						<h2 class="signature" data-aos="fade-left" data-aos-delay="550">
+						<h2 class="signature" data-aos="fade-left" data-aos-delay="350">
 							-Jude <a href="https://www.facebook.com/UomiPH">"Exia"</a> Rabang
 						</h2>
-						<h3 data-aos="fade-up" data-aos-delay="650">
+						<h3 data-aos="fade-up" data-aos-delay="550">
 							<span>Teletigers Valorant Captain</span><br />
 						</h3>
 					</fieldset>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="700"
 					>
@@ -95,7 +98,7 @@
 						</div>
 					</div>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="800"
 					>
@@ -110,7 +113,7 @@
 						</div>
 					</div>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="900"
 					>
@@ -125,7 +128,7 @@
 						</div>
 					</div>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="1000"
 					>
@@ -180,31 +183,6 @@
 		window.onunload = function () {
 			window.scrollTo(0, 0);
 		};
-
-		// function seeMore() {
-		// 	$(".img-container, .img-container-capt").addClass("active");
-		// 	if ($(".btn span:contains(See More)")) {
-		// 		$(".btn span").text("SEE LESS");
-		// 	}
-		// 	window.setTimeout(function () {
-		// 		$(".capt-text").removeClass("inactive");
-		// 	}, 700);
-		// }
-
-		// function seeLess() {
-		// 	$(".img-container-capt").addClass("finished");
-		// 	$(".btn span").text("See More");
-		// 	$(".capt-text").addClass("inactive");
-		// 	$(".btn").attr(
-		// 		"onclick",
-		// 		"seeMore();this.setAttribute('onclick','seeLess()')"
-		// 	);
-		// 	$(".btn").attr("href", "/TELETIGERS_WEBSITE/valorant");
-		// 	window.setTimeout(function () {
-		// 		$(".img-container").removeClass("active");
-		// 		$(".img-container-capt").removeClass("active").removeClass("finished");
-		// 	}, 700);
-		// }
 
 		function reload() {
 			$(".player-card").hover(function () {

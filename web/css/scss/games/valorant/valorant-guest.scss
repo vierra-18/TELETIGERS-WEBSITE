@@ -182,32 +182,29 @@ body {
 
 			.img-container-capt {
 				position: relative;
-				height: 320px;
-				width: 230px;
-				padding: 10px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 290px;
+				width: 200px;
+				// padding: 10px;
 				background: #31313169;
 				border: double 10px #dd970075;
-				// overflow: hidden;
+				overflow: hidden;
 				&.active {
-					transition: 0.7s ease;
-					margin-right: 25em;
+					margin-right: 20em;
 				}
-				&.finished {
-					opacity: 0;
-				}
-				.img-wrap {
-					filter: drop-shadow(10px 10px 2px #5c5c5cd0);
-				}
+
 				img {
 					filter: grayscale(100%);
-					clip-path: inset(0 0% 5% 0);
-					width: 120%;
+					// clip-path: inset(0 0% 5% 0);
+					width: 90%;
 					// box-shadow: 10px 10px 5px #5c5c5c4b;
 				}
 				.player-info {
 					position: absolute;
 					// top: 0;
-					right: 2%;
 					bottom: -2%;
 					width: 80%;
 					height: 80%;
@@ -219,8 +216,9 @@ body {
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
+					align-self: center;
 					text-align: center;
-					gap: 1.4em;
+					// gap: 1em;
 					color: white;
 					&.active {
 						pointer-events: all;
@@ -231,7 +229,7 @@ body {
 						letter-spacing: 0.1em;
 						font-family: "Teko", sans-serif;
 						font-style: italic;
-						font-size: 3em;
+						font-size: 2.3em;
 						color: #dd6300;
 					}
 					.btn {
@@ -290,7 +288,7 @@ body {
 				position: absolute;
 				right: 20%;
 				width: 30%;
-				height: 30%;
+				height: 23%;
 				border: 2px solid #999999;
 				padding: 15px 30px;
 				font-family: "Lekton", sans-serif;
@@ -303,10 +301,8 @@ body {
 				text-justify: inter-word;
 				box-shadow: 10px 10px 5px #da880d4b;
 				margin-left: 2em;
-				opacity: 1;
-				transition: all 0.7s ease;
 				&.inactive {
-					opacity: 0;
+					opacity: 0 !important;
 					margin-left: 0 !important;
 				}
 				.signature {
@@ -348,12 +344,11 @@ body {
 				align-content: center;
 				margin-left: 1em;
 				&.active {
-					transition: all 0.7s ease;
-					// position: absolute;
-					margin-left: 0 !important;
 					opacity: 0;
-					width: 0;
 					pointer-events: none;
+				}
+				&.finished {
+					width: 0;
 				}
 
 				img {
@@ -388,10 +383,6 @@ body {
 						font-size: 1.8em;
 						color: #dd6300;
 					}
-				}
-				&.active {
-					opacity: 0;
-					margin-left: 3em;
 				}
 			}
 			.text-container {

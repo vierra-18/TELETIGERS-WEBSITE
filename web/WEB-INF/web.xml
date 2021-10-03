@@ -227,6 +227,16 @@
         <servlet-name>Valorant Guest</servlet-name>
         <url-pattern>/valorant</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>copy</servlet-name>
+        <jsp-file>/pages/games/valorant/copy.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>copy</servlet-name>
+        <url-pattern>/copy</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>Valorant Player</servlet-name>
         <jsp-file>/pages/games/valorant/valorant-player.jsp</jsp-file>
