@@ -4,11 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="-1" />
 		<script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
 		<script defer src="js/swup.js"></script>
-		<script src="/web/js/@swup/scripts-plugin/dist/SwupScriptsPlugin.js"></script>
-		<link rel="stylesheet" href="css/styles/valorant-guest_style.css" />
 		<link rel="stylesheet" href="css/styles/page-transition_style.css" />
+		<link rel="stylesheet" href="css/styles/valorant-guest_style.css" />
 		<link rel="stylesheet" href="css/aos.css" />
 		<link
 			rel="shortcut icon"
@@ -60,10 +62,9 @@
 						/>
 
 						<div class="player-info">
-							<h1>TGR EXIA</h1>
-							<a href="/TELETIGERS_WEBSITE/copy" class="btn"
-								><span>See more</span>
-							</a>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR EXIA</h1></a
+							>
 						</div>
 					</div>
 					<fieldset class="capt-text inactive">
@@ -91,7 +92,9 @@
 							data-aos-delay="900"
 						/>
 						<div class="player-info">
-							<h1>TGR ARQUIZA</h1>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR ARQUIZA</h1></a
+							>
 						</div>
 					</div>
 					<div
@@ -106,7 +109,9 @@
 							data-aos-delay="1000"
 						/>
 						<div class="player-info">
-							<h1>TGR GOOPE</h1>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR GOOPE</h1></a
+							>
 						</div>
 					</div>
 					<div
@@ -121,7 +126,9 @@
 							data-aos-delay="1100"
 						/>
 						<div class="player-info">
-							<h1>TGR SH0XDART</h1>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR SHOXDART</h1></a
+							>
 						</div>
 					</div>
 					<div
@@ -136,10 +143,17 @@
 							data-aos-delay="1200"
 						/>
 						<div class="player-info">
-							<h1>TGR ENCESANE</h1>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR ENCESANE</h1></a
+							>
 						</div>
 					</div>
 				</main>
+				<div class="overlay-1 transition-wipedown"></div>
+				<div class="overlay-2 transition-wipeup"></div>
+				<div class="overlay-3 transition-show">
+					<h1 id="overtext">#TGRWIN</h1>
+				</div>
 			</section>
 			<section class="container-3" id="cont3">
 				<div class="text">
@@ -181,37 +195,23 @@
 			window.scrollTo(0, 0);
 		};
 
-		// function seeMore() {
-		// 	$(".img-container, .img-container-capt").addClass("active");
-		// 	if ($(".btn span:contains(See More)")) {
-		// 		$(".btn span").text("SEE LESS");
-		// 	}
-		// 	window.setTimeout(function () {
-		// 		$(".capt-text").removeClass("inactive");
-		// 	}, 700);
-		// }
-
-		// function seeLess() {
-		// 	$(".img-container-capt").addClass("finished");
-		// 	$(".btn span").text("See More");
-		// 	$(".capt-text").addClass("inactive");
-		// 	$(".btn").attr(
-		// 		"onclick",
-		// 		"seeMore();this.setAttribute('onclick','seeLess()')"
-		// 	);
-		// 	$(".btn").attr("href", "/TELETIGERS_WEBSITE/valorant");
-		// 	window.setTimeout(function () {
-		// 		$(".img-container").removeClass("active");
-		// 		$(".img-container-capt").removeClass("active").removeClass("finished");
-		// 	}, 700);
-		// }
-
 		function reload() {
 			$(".player-card").hover(function () {
 				$(this).find(".player-info").toggleClass("active");
 			});
+
+			$(".player-btn").click(function () {
+				var name = $(this).text();
+				$("#overtext").html("#" + name);
+				console.log(name);
+			});
+
+			console.log("shet");
 		}
 
+		function seeLess() {
+			$("#overtext").html("#TGRWIN");
+		}
 		reload();
 		document.addEventListener("swup:contentReplaced", reload);
 	</script>

@@ -24,6 +24,7 @@ body {
 	min-height: 100vh;
 	background: url("../images/haha.png") no-repeat top center;
 	background-size: cover;
+	background-attachment: fixed;
 	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
@@ -40,7 +41,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #494949;
+	background-color: #000000;
 }
 
 .background {
@@ -104,7 +105,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	z-index: 999;
+	z-index: 900;
 }
 
 .header_logo img {
@@ -229,7 +230,7 @@ body {
 						letter-spacing: 0.1em;
 						font-family: "Teko", sans-serif;
 						font-style: italic;
-						font-size: 2.3em;
+						font-size: 1.8em;
 						color: #dd6300;
 					}
 					.btn {
@@ -374,7 +375,7 @@ body {
 					&.active {
 						pointer-events: all;
 						opacity: 1;
-						bottom: 10%;
+						bottom: 2%;
 					}
 					h1 {
 						letter-spacing: 0.1em;
@@ -382,6 +383,56 @@ body {
 						font-style: italic;
 						font-size: 1.8em;
 						color: #dd6300;
+					}
+					.btn {
+						border: none;
+						display: block;
+						text-align: center;
+						cursor: pointer;
+						text-transform: uppercase;
+						outline: none;
+						overflow: hidden;
+						position: relative;
+						font-weight: 300;
+						font-size: 15px;
+						font-family: "Antonio", sans-serif;
+						letter-spacing: 0.2em;
+						font-style: italic;
+						background-color: #222;
+						padding: 5px 20px;
+						margin: 0 auto;
+						box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+						text-decoration: none;
+						color: #ffffff;
+						transition: 0.5s ease;
+						span {
+							position: relative;
+							z-index: 1;
+						}
+
+						&:hover {
+							transition: 0.5s ease;
+							color: #000000;
+						}
+
+						&:after {
+							content: "";
+							position: absolute;
+							left: 0;
+							top: 0;
+							height: 400%;
+							width: 130%;
+							background: #dfb325;
+							-webkit-transition: all 0.5s ease-in-out;
+							transition: all 0.5s ease-in-out;
+							-webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+							transform: translateX(-98%) translateY(-25%) rotate(45deg);
+						}
+
+						&:hover:after {
+							-webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+							transform: translateX(-9%) translateY(-25%) rotate(45deg);
+						}
 					}
 				}
 			}

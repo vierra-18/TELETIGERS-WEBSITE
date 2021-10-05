@@ -4,9 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="-1" />
 		<script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
 		<script defer src="js/swup.js"></script>
-		<script src="/web/js/@swup/scripts-plugin/dist/SwupScriptsPlugin.js"></script>
 		<link rel="stylesheet" href="css/styles/valorant-guest_style.css" />
 		<link rel="stylesheet" href="css/styles/page-transition_style.css" />
 		<link rel="stylesheet" href="css/aos.css" />
@@ -60,7 +62,10 @@
 
 						<div class="player-info">
 							<h1>TGR EXIA</h1>
-							<a href="/TELETIGERS_WEBSITE/valorant" class="btn"
+							<a
+								href="/TELETIGERS_WEBSITE/valorant"
+								class="btn"
+								onclick="seeLess();"
 								><span>See less</span></a
 							>
 						</div>
@@ -143,6 +148,11 @@
 						</div>
 					</div>
 				</main>
+				<div class="overlay-1 transition-wipedown"></div>
+				<div class="overlay-2 transition-wipeup"></div>
+				<div class="overlay-3 transition-show">
+					<h1 id="overtext">#TGRWIN</h1>
+				</div>
 			</section>
 			<section class="container-3" id="cont3">
 				<div class="text">
@@ -188,8 +198,19 @@
 			$(".player-card").hover(function () {
 				$(this).find(".player-info").toggleClass("active");
 			});
+
+			$(".player-btn").click(function () {
+				var name = $(this).text();
+				$("#overtext").html("#" + name);
+				console.log(name);
+			});
+
+			console.log("shet");
 		}
 
+		function seeLess() {
+			$("#overtext").html("#TGRWIN");
+		}
 		reload();
 		document.addEventListener("swup:contentReplaced", reload);
 	</script>

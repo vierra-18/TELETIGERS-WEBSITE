@@ -1,9 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Lekton:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Antonio:wght@100&family=Montserrat:wght@100&family=Red+Hat+Display&family=Roboto+Mono:ital,wght@0,100;1,100&display=swap");
+/* 
+font-family: 'Jost', sans-serif;
+font-family: 'Lekton', sans-serif; 
+font-family: 'Roboto Mono', monospace;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Antonio', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: "Teko", sans-serif;
+
+*/
 .transition-fade {
   opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.overlay-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute !important;
+  z-index: 999;
+}
+
+.overlay-2 {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: fixed !important;
+  z-index: 999;
+}
+
+.overlay-3 {
+  position: absolute;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.overlay-3 h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 15em;
+  color: #dd9700;
+  cursor: default;
+  line-height: 110px;
+  letter-spacing: 0.06em;
+  -webkit-transform: skewY(-2deg) !important;
+          transform: skewY(-2deg) !important;
+  font-style: italic;
+}
+
+.transition-wipedown {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.transition-wipeup {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.transition-show {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 html.is-animating .transition-fade {
   opacity: 0;
+}
+
+html.is-leaving .transition-wipedown {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+html.is-leaving .transition-wipeup {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+html.is-leaving .transition-show {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+  opacity: 1;
 }

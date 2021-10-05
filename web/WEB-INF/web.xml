@@ -221,7 +221,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>Valorant Guest</servlet-name>
-        <jsp-file>/pages/games/valorant/valorant-guest.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/guest/valorant-guest.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Guest</servlet-name>
@@ -229,12 +229,12 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>copy</servlet-name>
-        <jsp-file>/pages/games/valorant/copy.jsp</jsp-file>
+        <servlet-name>Exia Guest</servlet-name>
+        <jsp-file>/pages/games/valorant/guest/exia-guest.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>copy</servlet-name>
-        <url-pattern>/copy</url-pattern>
+        <servlet-name>Exia Guest</servlet-name>
+        <url-pattern>/Exia</url-pattern>
     </servlet-mapping>
 
     <servlet>

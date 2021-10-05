@@ -52,7 +52,7 @@ body.inactive {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #494949;
+  background-color: #000000;
 }
 
 .header_logo {
