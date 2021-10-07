@@ -4,10 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-		<script defer src="js/swup.js"></script>
+		<script defer src="js/node_modules/swup/dist/swup.js"></script>
+		<script defer src="js/swup-start.js"></script>
 		<link rel="stylesheet" href="css/styles/page-transition_style.css" />
-		<link rel="stylesheet" href="css/styles/valorant-guest_style.css" />
+		<link rel="stylesheet" href="css/styles/valorant-player_style.css" />
 		<link rel="stylesheet" href="css/aos.css" />
 		<link
 			rel="shortcut icon"
@@ -20,6 +20,9 @@
 		></script>
 		<title>Teletigers #tgrwin</title>
 	</head>
+	<% ServletContext sc = request.getServletContext();
+	if(sc.getAttribute("SessionUser")==null){response.sendError(HttpServletResponse.SC_NOT_FOUND);};
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); %>
 	<body>
 		<section class="background">
 			<!-- <video autoplay muted loop id="myVideo">
@@ -30,23 +33,50 @@
 			<a href="#"><img src="css/images/Teletigers Text.png" alt="logo" /></a>
 		</div>
 		<section class="main-container">
+			<nav role="navigation">
+				<div id="menuToggle" data-aos="fade-in">
+					<input type="checkbox" id="checkbox" />
+
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<ul id="menu">
+						<a href="_account"><li>ACCOUNT</li></a>
+						<a href="#"
+							><li>
+								LOGOUT
+								<form
+									class="data-swup-form"
+									id="logout-form"
+									action="${pageContext.request.contextPath}/Logout"
+									method="POST"
+								>
+									<input
+										type="submit"
+										value="LOGOUT"
+										id="logout"
+										onclick="console.log('logout')"
+									/>
+								</form></li
+						></a>
+					</ul>
+				</div>
+			</nav>
 			<section class="container-1" id="cont1">
 				<ul class="header-opt">
 					<li data-aos="fade-down" data-aos-delay="400">
-						<a href="achievements">Achievements</a>
+						<a href="_achievements">Achievements</a>
 					</li>
 					<li data-aos="fade-down" data-aos-delay="600">
-						<a href="gamepick">Teams</a>
+						<a href="_gamepick">Teams</a>
 					</li>
 					<li data-aos="fade-down" data-aos-delay="800">
-						<a href="home">Home</a>
-					</li>
-					<li data-aos="fade-down" data-aos-delay="1000">
-						<a href="login">Login</a>
+						<a href="_home">Home</a>
 					</li>
 				</ul>
-				--------------------------------------------------------------------------------------------------------------
-				--------------------------------------------------------------------------------------------------------------
+				<!-- --------------------------------------------------------------------------------------------------------------
+				-------------------------------------------------------------------------------------------------------------- -->
 				<main id="swup" class="sub-container-1 transition-fade">
 					<div
 						class="img-container-capt player-card"
@@ -60,7 +90,7 @@
 							data-aos-delay="700"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/_Exia" class="player-btn"
 								><h1 class="player-name">TGR EXIA</h1></a
 							>
 						</div>
@@ -152,8 +182,8 @@
 				<div class="overlay-3 transition-show">
 					<h1 id="overtext">#TGRWIN</h1>
 				</div>
-				--------------------------------------------------------------------------------------------------------------
-				--------------------------------------------------------------------------------------------------------------
+				<!-- --------------------------------------------------------------------------------------------------------------
+				-------------------------------------------------------------------------------------------------------------- -->
 			</section>
 			<section class="container-3" id="cont3">
 				<div class="text">
@@ -204,10 +234,23 @@
 				var name = $(this).text();
 				$("#overtext").html("#" + name);
 			});
+
+			window.addEventListener("DOMContentLoaded", function () {
+				var form = $("#logout-form");
+
+				$("#logout").click(function () {
+					form.submit();
+				});
+			});
 		}
 
 		function seeLess() {
 			$("#overtext").html("#TGRWIN");
+		}
+
+		function revert() {
+			var cbox = document.getElementById("checkbox");
+			cbox.checked = !cbox.checked;
 		}
 
 		reload();

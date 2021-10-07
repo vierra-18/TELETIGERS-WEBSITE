@@ -239,12 +239,22 @@
 
     <servlet>
         <servlet-name>Valorant Player</servlet-name>
-        <jsp-file>/pages/games/valorant/valorant-player.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/player/valorant-player.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Player</servlet-name>
         <url-pattern>/_valorant</url-pattern>
     </servlet-mapping> 
+
+    <servlet>
+        <servlet-name>Exia Player</servlet-name>
+        <jsp-file>/pages/games/valorant/player/exia-player.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Exia Player</servlet-name>
+        <url-pattern>/_Exia</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>Valorant Manager</servlet-name>
         <jsp-file>/pages/games/valorant/valorant-manager.jsp</jsp-file>

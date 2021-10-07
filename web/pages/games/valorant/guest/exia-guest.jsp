@@ -202,10 +202,7 @@
 			$(".player-btn").click(function () {
 				var name = $(this).text();
 				$("#overtext").html("#" + name);
-				console.log(name);
 			});
-
-			console.log("shet");
 		}
 
 		function seeLess() {

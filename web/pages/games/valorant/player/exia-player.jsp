@@ -4,6 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script defer src="js/node_modules/swup/dist/swup.js"></script>
+		<script defer src="js/swup-start.js"></script>
+		<link rel="stylesheet" href="css/styles/page-transition_style.css" />
 		<link rel="stylesheet" href="css/styles/valorant-player_style.css" />
 		<link rel="stylesheet" href="css/aos.css" />
 		<link
@@ -44,9 +47,10 @@
 							><li>
 								LOGOUT
 								<form
+									class="data-swup-form"
 									id="logout-form"
 									action="${pageContext.request.contextPath}/Logout"
-									method="post"
+									method="POST"
 								>
 									<input type="submit" value="LOGOUT" id="logout" />
 								</form></li
@@ -66,45 +70,47 @@
 						<a href="_home">Home</a>
 					</li>
 				</ul>
-				<div class="sub-container-1">
+				<!-- --------------------------------------------------------------------------------------------------------------
+				-------------------------------------------------------------------------------------------------------------- -->
+				<main id="swup" class="sub-container-1 transition-fade">
 					<div
-						class="img-container-capt player-card"
+						class="img-container-capt player-card finished active"
 						data-aos="fade-right"
 						data-aos-delay="600"
 					>
-						<div class="img-wrap">
-							<img
-								src="css/images/TGR Exia.png"
-								alt="profile-picture"
-								data-aos="zoom-out-left"
-								data-aos-delay="700"
-							/>
-						</div>
+						<img
+							src="css/images/TGR Exia.png"
+							alt="profile-picture"
+							data-aos="zoom-in"
+							data-aos-delay="700"
+						/>
 						<div class="player-info">
-							<h1>TGR EXIA</h1>
-							<a
-								href="#"
-								class="btn"
-								onclick="seeMore();this.setAttribute('onclick', 'seeLess()')"
-								><span>See more</span></a
+							<a href="/TELETIGERS_WEBSITE/_valorant" class="player-btn"
+								><h1 class="player-name">TGR EXIA</h1></a
 							>
 						</div>
+
+						<!-- TODO: change href of anchor to proper its proper link  -->
 					</div>
-					<fieldset class="capt-text inactive">
+					<fieldset
+						class="capt-text"
+						data-aos="zoom-out-right"
+						data-aos-delay="650"
+					>
 						"Being a part of Teletigers, it gave me the chance to be in a team
 						environment in order to improve myself not just as a student-gamer
 						but also as a person. As the captain of the valorant team, it helped
 						me gain confidence as well as the experience of being able to lead
 						people to better ourselves in order to improve team as a whole."
-						<h2 class="signature" data-aos="fade-left" data-aos-delay="550">
-							-Jude <a href="https://fb.gg/ExiaGamingPH">"Exia"</a> Rabang
+						<h2 class="signature" data-aos="fade-left" data-aos-delay="350">
+							-Jude <a href="https://www.facebook.com/UomiPH">"Exia"</a> Rabang
 						</h2>
-						<h3 data-aos="fade-up" data-aos-delay="650">
+						<h3 data-aos="fade-up" data-aos-delay="550">
 							<span>Teletigers Valorant Captain</span><br />
 						</h3>
 					</fieldset>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="700"
 					>
@@ -115,12 +121,13 @@
 							data-aos-delay="900"
 						/>
 						<div class="player-info">
-							<h1>TGR ARQUIZA</h1>
-							<h3>Zach Arquiza</h3>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR ARQUIZA</h1></a
+							>
 						</div>
 					</div>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="800"
 					>
@@ -131,12 +138,13 @@
 							data-aos-delay="1000"
 						/>
 						<div class="player-info">
-							<h1>TGR GOOPE</h1>
-							<h3>Yuan De Guzman</h3>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR GOOPE</h1></a
+							>
 						</div>
 					</div>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="900"
 					>
@@ -147,12 +155,13 @@
 							data-aos-delay="1100"
 						/>
 						<div class="player-info">
-							<h1>TGR SH0XDART</h1>
-							<h3>Carl Cunanan</h3>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR SHOXDART</h1></a
+							>
 						</div>
 					</div>
 					<div
-						class="img-container player-card"
+						class="img-container player-card active finished"
 						data-aos="fade-right"
 						data-aos-delay="1000"
 					>
@@ -163,11 +172,19 @@
 							data-aos-delay="1200"
 						/>
 						<div class="player-info">
-							<h1>TGR ENCESANE</h1>
-							<h3>Clarence Palmos</h3>
+							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+								><h1 class="player-name">TGR ENCESANE</h1></a
+							>
 						</div>
 					</div>
+				</main>
+				<div class="overlay-1 transition-wipedown"></div>
+				<div class="overlay-2 transition-wipeup"></div>
+				<div class="overlay-3 transition-show">
+					<h1 id="overtext">#TGRWIN</h1>
 				</div>
+				<!-- --------------------------------------------------------------------------------------------------------------
+				-------------------------------------------------------------------------------------------------------------- -->
 			</section>
 			<section class="container-3" id="cont3">
 				<div class="text">
@@ -209,37 +226,35 @@
 			window.scrollTo(0, 0);
 		};
 
+		function reload() {
+			$(".player-card").hover(function () {
+				$(this).find(".player-info").toggleClass("active");
+			});
+
+			$(".player-btn").click(function () {
+				var name = $(this).text();
+				$("#overtext").html("#" + name);
+			});
+
+			window.addEventListener("DOMContentLoaded", function () {
+				var form = $("#logout-form");
+
+				$("#logout").click(function () {
+					form.submit();
+				});
+			});
+		}
+
+		function seeLess() {
+			$("#overtext").html("#TGRWIN");
+		}
+
 		function revert() {
 			var cbox = document.getElementById("checkbox");
 			cbox.checked = !cbox.checked;
 		}
 
-		$(".player-card").hover(function () {
-			$(this).find(".player-info").toggleClass("active");
-		});
-
-		function seeMore() {
-			$(".img-container, .img-container-capt").addClass("active");
-			if ($(".btn span:contains(See More)")) {
-				$(".btn span").text("SEE LESS");
-			}
-			window.setTimeout(function () {
-				$(".capt-text").removeClass("inactive");
-			}, 300);
-		}
-
-		function seeLess() {
-			$(".img-container-capt").addClass("finished");
-			$(".btn span").text("See More");
-			$(".capt-text").addClass("inactive");
-			$(".btn").attr(
-				"onclick",
-				"seeMore();this.setAttribute('onclick','seeLess()')"
-			);
-			window.setTimeout(function () {
-				$(".img-container").removeClass("active");
-				$(".img-container-capt").removeClass("active").removeClass("finished");
-			}, 700);
-		}
+		reload();
+		document.addEventListener("swup:contentReplaced", reload);
 	</script>
 </html>

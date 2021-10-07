@@ -301,6 +301,10 @@ body {
   bottom: 2%;
 }
 
+.main-container .container-1 .sub-container-1 .img-container-capt .player-info .player-btn {
+  text-decoration: none;
+}
+
 .main-container .container-1 .sub-container-1 .img-container-capt .player-info h1 {
   letter-spacing: 0.1em;
   font-family: "Teko", sans-serif;
@@ -501,6 +505,10 @@ body {
   pointer-events: all;
   opacity: 1;
   bottom: 2%;
+}
+
+.main-container .container-1 .sub-container-1 .img-container .player-info .player-btn {
+  text-decoration: none;
 }
 
 .main-container .container-1 .sub-container-1 .img-container .player-info h1 {
