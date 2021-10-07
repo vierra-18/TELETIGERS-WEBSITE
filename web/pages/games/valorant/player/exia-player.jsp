@@ -85,12 +85,14 @@
 							data-aos-delay="700"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/_valorant" class="player-btn"
-								><h1 class="player-name">TGR EXIA</h1></a
+							<h1>TGR EXIA</h1>
+							<a
+								href="/TELETIGERS_WEBSITE/_valorant"
+								class="btn"
+								onclick="seeLess();"
+								><span>See less</span></a
 							>
 						</div>
-
-						<!-- TODO: change href of anchor to proper its proper link  -->
 					</div>
 					<fieldset
 						class="capt-text"
