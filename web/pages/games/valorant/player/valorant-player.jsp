@@ -230,10 +230,10 @@
 				$(this).find(".player-info").toggleClass("active");
 			});
 
-			$(".player-btn").click(function () {
-				var name = $(this).text();
-				$("#overtext").html("#" + name);
-			});
+			// $(".player-btn").click(function () {
+			// 	var name = $(this).text();
+			// 	$("#overtext").html("#" + name);
+			// });
 
 			window.addEventListener("DOMContentLoaded", function () {
 				var form = $("#logout-form");
