@@ -257,20 +257,40 @@
 
     <servlet>
         <servlet-name>Valorant Manager</servlet-name>
-        <jsp-file>/pages/games/valorant/valorant-manager.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/manager/valorant-manager.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Manager</servlet-name>
         <url-pattern>/valorant_</url-pattern>
-    </servlet-mapping>   
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Exia Manager</servlet-name>
+        <jsp-file>/pages/games/valorant/manager/exia-manager.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Exia Manager</servlet-name>
+        <url-pattern>/Exia_</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>Valorant Admin</servlet-name>
-        <jsp-file>/pages/games/valorant/valorant-admin.jsp</jsp-file>
+        <jsp-file>/pages/games/valorant/admin/valorant-admin.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>Valorant Admin</servlet-name>
         <url-pattern>/_valorant_</url-pattern>
     </servlet-mapping> 
+
+    <servlet>
+        <servlet-name>Exia Admin</servlet-name>
+        <jsp-file>/pages/games/valorant/admin/exia-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Exia Admin</servlet-name>
+        <url-pattern>/_Exia_</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>Achievements Guest</servlet-name>
         <jsp-file>/pages/achievements/achievements.jsp</jsp-file>
