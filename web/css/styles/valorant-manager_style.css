@@ -92,10 +92,10 @@ body {
   right: 0%;
   display: block;
   z-index: 400;
-  -webkit-user-select: none;
   -moz-user-select: none;
-   -ms-user-select: none;
        user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 #menuToggle a {
@@ -395,7 +395,7 @@ body {
 }
 
 .main-container .container-1 .sub-container-1 .img-container-capt.active {
-  margin-right: 20em;
+  margin-right: 30em;
 }
 
 .main-container .container-1 .sub-container-1 .img-container-capt img {

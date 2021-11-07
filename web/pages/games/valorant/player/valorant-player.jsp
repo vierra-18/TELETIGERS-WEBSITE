@@ -120,7 +120,7 @@
 							data-aos-delay="900"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/_Arquiza" class="player-btn"
 								><h1 class="player-name">TGR ARQUIZA</h1></a
 							>
 						</div>
@@ -137,7 +137,7 @@
 							data-aos-delay="1000"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/_Goope" class="player-btn"
 								><h1 class="player-name">TGR GOOPE</h1></a
 							>
 						</div>
@@ -154,7 +154,7 @@
 							data-aos-delay="1100"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/_Shoxdart" class="player-btn"
 								><h1 class="player-name">TGR SHOXDART</h1></a
 							>
 						</div>
@@ -171,7 +171,7 @@
 							data-aos-delay="1200"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/_Encesane" class="player-btn"
 								><h1 class="player-name">TGR ENCESANE</h1></a
 							>
 						</div>

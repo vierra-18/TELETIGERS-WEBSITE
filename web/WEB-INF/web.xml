@@ -238,6 +238,42 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>Goope Guest</servlet-name>
+        <jsp-file>/pages/games/valorant/guest/goope-guest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Goope Guest</servlet-name>
+        <url-pattern>/Goope</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Shoxdart Guest</servlet-name>
+        <jsp-file>/pages/games/valorant/guest/shoxdart-guest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Shoxdart Guest</servlet-name>
+        <url-pattern>/Shoxdart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Encesane Guest</servlet-name>
+        <jsp-file>/pages/games/valorant/guest/encesane-guest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Encesane Guest</servlet-name>
+        <url-pattern>/Encesane</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Arquiza Guest</servlet-name>
+        <jsp-file>/pages/games/valorant/guest/arquiza-guest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Arquiza Guest</servlet-name>
+        <url-pattern>/Arquiza</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>Valorant Player</servlet-name>
         <jsp-file>/pages/games/valorant/player/valorant-player.jsp</jsp-file>
     </servlet>
@@ -253,6 +289,42 @@
     <servlet-mapping>
         <servlet-name>Exia Player</servlet-name>
         <url-pattern>/_Exia</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Goope Player</servlet-name>
+        <jsp-file>/pages/games/valorant/player/goope-player.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Goope Player</servlet-name>
+        <url-pattern>/_Goope</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Shoxdart Player</servlet-name>
+        <jsp-file>/pages/games/valorant/player/shoxdart-player.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Shoxdart Player</servlet-name>
+        <url-pattern>/_Shoxdart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Encesane Player</servlet-name>
+        <jsp-file>/pages/games/valorant/player/encesane-player.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Encesane Player</servlet-name>
+        <url-pattern>/_Encesane</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Arquiza Player</servlet-name>
+        <jsp-file>/pages/games/valorant/player/arquiza-player.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Arquiza Player</servlet-name>
+        <url-pattern>/_Arquiza</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -274,6 +346,42 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>Goope Manager</servlet-name>
+        <jsp-file>/pages/games/valorant/manager/goope-manager.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Goope Manager</servlet-name>
+        <url-pattern>/Goope_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Shoxdart Manager</servlet-name>
+        <jsp-file>/pages/games/valorant/manager/shoxdart-manager.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Shoxdart Manager</servlet-name>
+        <url-pattern>/Shoxdart_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Encesane Manager</servlet-name>
+        <jsp-file>/pages/games/valorant/manager/encesane-manager.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Encesane Manager</servlet-name>
+        <url-pattern>/Encesane_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Arquiza Manager</servlet-name>
+        <jsp-file>/pages/games/valorant/manager/arquiza-manager.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Arquiza Manager</servlet-name>
+        <url-pattern>/Arquiza_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>Valorant Admin</servlet-name>
         <jsp-file>/pages/games/valorant/admin/valorant-admin.jsp</jsp-file>
     </servlet>
@@ -289,6 +397,42 @@
     <servlet-mapping>
         <servlet-name>Exia Admin</servlet-name>
         <url-pattern>/_Exia_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Goope Admin</servlet-name>
+        <jsp-file>/pages/games/valorant/admin/goope-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Goope Admin</servlet-name>
+        <url-pattern>/_Goope_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Shoxdart Admin</servlet-name>
+        <jsp-file>/pages/games/valorant/admin/shoxdart-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Shoxdart Admin</servlet-name>
+        <url-pattern>/_Shoxdart_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Encesane Admin</servlet-name>
+        <jsp-file>/pages/games/valorant/admin/encesane-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Encesane Admin</servlet-name>
+        <url-pattern>/_Encesane_</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Arquiza Admin</servlet-name>
+        <jsp-file>/pages/games/valorant/admin/arquiza-admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Arquiza Admin</servlet-name>
+        <url-pattern>/_Arquiza_</url-pattern>
     </servlet-mapping>
 
     <servlet>

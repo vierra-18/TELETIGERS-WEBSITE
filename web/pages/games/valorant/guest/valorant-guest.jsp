@@ -45,8 +45,8 @@
 						<a href="login">Login</a>
 					</li>
 				</ul>
-				--------------------------------------------------------------------------------------------------------------
-				--------------------------------------------------------------------------------------------------------------
+				<!-- --------------------------------------------------------------------------------------------------------------
+				-------------------------------------------------------------------------------------------------------------- -->
 				<main id="swup" class="sub-container-1 transition-fade">
 					<div
 						class="img-container-capt player-card"
@@ -90,7 +90,7 @@
 							data-aos-delay="900"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/Arquiza" class="player-btn"
 								><h1 class="player-name">TGR ARQUIZA</h1></a
 							>
 						</div>
@@ -107,7 +107,7 @@
 							data-aos-delay="1000"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/Goope" class="player-btn"
 								><h1 class="player-name">TGR GOOPE</h1></a
 							>
 						</div>
@@ -124,7 +124,7 @@
 							data-aos-delay="1100"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/Shoxdart" class="player-btn"
 								><h1 class="player-name">TGR SHOXDART</h1></a
 							>
 						</div>
@@ -141,7 +141,7 @@
 							data-aos-delay="1200"
 						/>
 						<div class="player-info">
-							<a href="/TELETIGERS_WEBSITE/Exia" class="player-btn"
+							<a href="/TELETIGERS_WEBSITE/Encesane" class="player-btn"
 								><h1 class="player-name">TGR ENCESANE</h1></a
 							>
 						</div>
@@ -152,8 +152,8 @@
 				<div class="overlay-3 transition-show">
 					<h1 id="overtext">#TGRWIN</h1>
 				</div>
-				--------------------------------------------------------------------------------------------------------------
-				--------------------------------------------------------------------------------------------------------------
+				<!-- --------------------------------------------------------------------------------------------------------------
+				-------------------------------------------------------------------------------------------------------------- -->
 			</section>
 			<section class="container-3" id="cont3">
 				<div class="text">

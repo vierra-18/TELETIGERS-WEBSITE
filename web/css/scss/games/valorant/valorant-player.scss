@@ -92,8 +92,9 @@ body {
 
 	z-index: 400;
 
-	-webkit-user-select: none;
 	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 	a {
 		text-decoration: none;
 		color: #ffffff;
@@ -310,7 +311,7 @@ body {
 				border: double 10px #dd970075;
 				overflow: hidden;
 				&.active {
-					margin-right: 20em;
+					margin-right: 30em;
 				}
 
 				img {
